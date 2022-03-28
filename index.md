@@ -4,4 +4,3 @@ The App Fair Project is dedicated to creating, publising, distributing, and main
 
 Contact: [project@appfair.org](mailto:project@appfair.org)
 
-
