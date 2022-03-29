@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374" height="374" viewBox="0 0 374 374">
+  <defs>
+    <linearGradient id="outline-gradient" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#E8E8E8"/>
+    </linearGradient>
+    <path id="carriage-path" d="M0,0c0,3.121,-2.533,5.653,-5.653,5.653l-22.613,0c-3.121,0,-5.654,-2.532,-5.654,-5.653l0,-22.613c0,-3.121,2.533,-5.653,5.654,-5.653l22.613,0c3.12,0,5.653,2.532,5.653,5.653l0,22.613zm-22.851,-5.653l11.307,0l0,-11.307l-11.307,0l0,11.307z"/>
+  </defs>
+  <g fill="none" transform="translate(1 1)">
+    <path id="badge-outline" fill="url(#outline-gradient)" stroke="#979797" stroke-width="2" d="M43.9972148,372 C19.7424593,372 0,352.2096 0,327.9831 L0,43.9518 C0,19.716 19.7424593,0 43.9972148,0 L311.31431,0 C335.55976,0 356,19.716 356,43.9518 L356,327.9831 C356,352.2096 335.55976,372 311.31431,372 L43.9972148,372 Z"/>
+    <path id="badge-background" fill="#0091FF" d="M311.35015,363 L44.6963392,363 C24.9931502,363 9,347.029941 9,327.31428 L9,42.7323074 C9,23.0259631 24.9931502,7 44.6963392,7 L311.34085,7 C331.06264,7 347,23.0259631 347,42.7323074 L347,327.31428 C347,347.029941 331.06264,363 311.35015,363 Z"/>
+
+    <g transform="translate(43 50)">
+        <g>
+          <g id="rotating-carriage" transform="translate(152,147)">
+            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            <g id="carriage-right" transform="translate(118,0)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-left" transform="translate(-118,0)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-top" transform="translate(0,-118)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-bottom" transform="translate(0,118)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-upper-right" transform="translate(83,83)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-lower-left" transform="translate(-83,-83)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-lower-right" transform="translate(83,-83)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+            <g id="carriage-upper-left" transform="translate(-83,83)">
+                <use fill="#FFF" xlink:href="#carriage-path"/>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="20.0s" additive="sum" repeatCount="indefinite" />
+            </g>
+        </g>
+
+        <path id="outer-roue" fill="#FFF" d="M81.2600503,221.384736 L97.5979899,191.679648 C79.3492462,179.491206 67.2851759,158.757852 67.2851759,135.192211 C67.2851759,97.7788945 97.7223618,67.3530151 135.124372,67.3530151 C172.523555,67.3530151 202.963568,97.7788945 202.963568,135.192211 C202.963568,158.746545 190.888191,179.502513 172.619661,191.679648 L188.954774,221.384736 C217.66206,203.38191 236.860553,171.542714 236.860553,135.203518 C236.860553,79.089196 191.204774,33.4334171 135.101759,33.4334171 C78.9987437,33.4334171 33.3429648,79.1005025 33.3429648,135.203518 C33.3655779,171.542714 52.5527638,203.370603 81.2600503,221.384736 Z"/>
+
+        <path id="bottom-arc" fill="#FFF" d="M191.657035 135.214824C191.657035 104.042714 166.285176 78.6821608 135.124372 78.6821608 103.952261 78.6821608 78.5917085 104.042714 78.5917085 135.214824 78.5917085 154.503769 88.3153266 171.497487 103.092965 181.70446L130.160804 132.487123C130.23995 132.340138 130.375628 132.272299 130.454774 132.136621 130.658291 131.820038 130.907035 131.559987 131.178392 131.288631 131.449749 131.017274 131.721106 130.757224 132.048995 130.553706 132.173367 130.47456 132.252513 130.338882 132.388191 130.271043 132.569095 130.18059 132.761307 130.18059 132.953518 130.090138 133.315327 129.931847 133.665829 129.818781 134.061558 129.750942 134.423367 129.683103 134.773869 129.66049 135.124372 129.66049 135.474874 129.66049 135.81407 129.683103 136.164573 129.750942 136.560302 129.818781 136.922111 129.943153 137.295226 130.101445 137.473304 130.169284 137.665515 130.169284 137.835113 130.271043 137.970791 130.338882 138.049937 130.47456 138.163003 130.553706 138.490892 130.76853 138.773555 131.017274 139.053392 131.299937 139.313442 131.571294 139.562186 131.831344 139.765704 132.136621 139.856156 132.272299 139.991834 132.351445 140.059673 132.487123L167.138819 181.715766C181.922111 171.497487 191.657035 154.495289 191.657035 135.214824zM162.712312 197.129397C154.280465 200.905779 144.961055 203.05402 135.135678 203.05402 125.298995 203.05402 115.971106 200.917085 107.525126 197.129397L91.1758794 226.854271C104.506281 233.265075 119.374372 236.984925 135.135678 236.984925 150.885678 236.984925 165.753769 233.273555 179.072864 226.854271L162.712312 197.129397z"/>
+
+
+        <path id="bottom-fill" fill="#FFF" d="M112.963568 187.202261C119.781407 190.10804 127.255025 191.727701 135.113065 191.727701 142.971106 191.727701 150.444724 190.09956 157.251256 187.202261L135.113065 146.917085 112.963568 187.202261zM188.96608 221.404523C185.777638 223.391646 182.476131 225.203518 179.061558 226.842965L198.576633 262.345477C199.614008 264.222362 201.550251 265.285176 203.540201 265.285176 204.467337 265.285176 205.394472 265.047739 206.253769 264.572864 208.98995 263.071922 209.993405 259.620603 208.492462 256.884422L188.96608 221.404523zM81.2600503 221.384736L61.7336683 256.895729C60.2298995 259.63191 61.2248744 263.071922 63.9610553 264.584171 64.8203518 265.047739 65.758794 265.285176 66.6746231 265.285176 68.6758794 265.285176 70.6092965 264.211055 71.638191 262.359611L91.1645729 226.845791C87.75 225.203518 84.4484925 223.394472 81.2600503 221.384736z"/>
+
+    </g>
+        <g filter="none" id="bottom-arc-fill" fill="#0091FF" fill-rule="nonzero">
+                <path d="M180.843399,224.930608 C166.933732,231.752736 151.559889,235.633587 135.351373,235.633587 C119.124206,235.633587 103.736376,231.773161 89.8033937,224.930608 L62.8327215,278.629331 C84.8233306,290.210607 109.350602,296.930608 135.351373,296.930608 C161.333493,296.930608 185.860764,290.225926 207.832722,278.629331 L180.843399,224.930608 Z"></path>
+        </g>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 ---
 name: AppFair
-title: The App Fair
+title: The App Fair Project
 ---
 
 <p align="center">
