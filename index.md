@@ -10,5 +10,13 @@ title: The App Fair Project
 
 The App Fair Project is dedicated to creating, publishing, distributing, and maintaining software applications for the public good. It is incorporated as a non-profit charity in the Commonwealth of Massachusetts.
 
-Contact us at [project@appfair.org](mailto:project@appfair.org) for information of programs, volunteer opportunities, and upcoming events.
+Contact us at [project@appfair.org](mailto:project@appfair.org) for information on programs, volunteer opportunities, and upcoming events.
 
+<small>
+The registered agent for The App Fair Project is:
+
+<code>
+4 Wollaston Avenue
+Arlington, MA 02476 USA
+</code>
+</small>
