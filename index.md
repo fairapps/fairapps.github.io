@@ -12,11 +12,5 @@ The App Fair Project is dedicated to creating, publishing, distributing, and mai
 
 Contact us at [project@appfair.org](mailto:project@appfair.org) for information on programs, volunteer opportunities, and upcoming events.
 
-<small>
-The registered agent for The App Fair Project is:
-
-<code>
-4 Wollaston Avenue
-Arlington, MA 02476 USA
-</code>
-</small>
+The registered agent for The App Fair Project Incorporated is:
+<code><pre>4 Wollaston Avenue, Arlington, MA 02476 USA</pre></code>
