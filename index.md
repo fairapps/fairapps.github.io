@@ -4,7 +4,7 @@ title: The App Fair Project
 ---
 
 <p align="center">
-<img alt="The App Fair icon" align="center" height="100" src="appfair-icon.svg" />
+<img alt="The App Fair logo" align="center" style="height: 60vh;" src="appfair-icon.svg" /></a>
 <h1 style="text-align: center; font-family: ui-rounded, Arial Rounded MT Bold, Arial Rounded Bold, Helvetica Rounded, Arial, sans-serif;">The App Fair Project</h1>
 </p>
 
