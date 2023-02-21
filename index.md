@@ -8,7 +8,9 @@ title: The App Fair Project
 <h1 style="text-align: center; font-family: ui-rounded, Arial Rounded MT Bold, Arial Rounded Bold, Helvetica Rounded, Arial, sans-serif;">The App Fair Project</h1>
 </p>
 
-The App Fair Project is dedicated to creating, publishing, distributing, and maintaining software applications for the public good. It is incorporated as a non-profit charity in the Commonwealth of Massachusetts.
+The App Fair Project is dedicated to creating, publishing, distributing, and maintaining software applications for the public good.
+
+The App Fair Project is an independent nonprofit charity and tax-exempt under section 501(c)3 of the Internal Revenue Code (EIN 88-1461874).
 
 Contact us at [project@appfair.org](mailto:project@appfair.org) for information on programs, volunteer opportunities, and upcoming events.
 
