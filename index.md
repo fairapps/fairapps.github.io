@@ -12,5 +12,6 @@ The App Fair Project is dedicated to creating, publishing, distributing, and mai
 
 The App Fair Project is based in the Commonwealth of Massachusetts. It is an independent nonprofit charity and tax-exempt under section 501(c)(3) of the Internal Revenue Code. Our EIN number is 88-1461874.
 
+
 Contact us at [project@appfair.org](mailto:project@appfair.org) for information on programs, volunteer opportunities, and upcoming events.
 
