@@ -1,15 +1,9 @@
 ## A Future for iPhone App Stores, Part I
 ### September 20, 2023
 
-<style>
-p { text-align: justify; }
-</style>
-
 With the announcement of the official Gatekeeper designations under the *Digital Markets Act*, iPhone owners will soon regain the ability to install apps from outside the confines of a single App Store. This capability has been blocked by the platform for years, requiring that owners of an iPhone obtain their software exclusively through a single platform-locked App Store, whose terms and conditions dictate the types of software that can be distributed, and whose rules demand a percentage of all digital commerce transacted through the apps listed therein.
 
 App Store tariffs and regulations have diminished the range and quality of software available to iPhone owners. They are the reason you cannot browse and purchase books from within the Kindle app, and why the massively popular game Fortnite was disappeared from the entire iOS marketplace in August 2020. Furthermore, a gag rule imposed on app developers forbids them from mentioning other avenues of commerce. The Spotify music app's [Premium] tab intimates this with a lone pithy statement: “You can't upgrade to Premium in the app. We know, it's not ideal.”
-
-<img style="padding: 1em; width: 50%;" align="right" alt="image of a marketplace" src="a-future-for-app-stores.png" />
 
 But by March of 2024 – the date that gatekeepers must be in full compliance and good standing with the rules of the DMA – joyous gamers will again be able to show off their Fortnite dance mojo from the comfort of their iPhones. Consumers will likely be able to browse and buy books from within the Kindle app, purchase a music subscription from within the Spotify app, and pay for goods and services using their preferred digital payment service provider rather than having one imposed by their device's operating system. And the door will finally be open for truly free software to compete on a level playing field alongside commercial vendors.
 
@@ -21,4 +15,6 @@ As for the creators of these apps, companies and individuals alike, what will ch
 
 There are many outstanding questions, and no concrete answers at this time. The picture will clarify itself in the coming weeks and months, as iOS is updated to remove its blocks on installing third-party applications. In addition, the third party app marketplace vendors and aspirants will need official published documentation on the `MobileInstallation` framework APIs that are used by iOS to install and update applications. All of this will need to be available well in advance of the March 6 deadline, as the initial attempts at compliance are likely to be found lacking.
 
-This is the first part in a series leading up to March 6, 2024 that will discuss the changing landscape of mobile software marketplaces, with a focus on free software and digital public goods. My name is Marc Prud'hommeaux and I've been programming computers for 40 years. I've written all manner of apps, great and small, for the iPhone App Store since its inception in 2008, and before. I recently created the App Fair Project to nurture and maintain truly free software for the devices people use everyday. You can reach me at marc@appfair.org.
+This is the first part in a series leading up to March 6, 2024 that will discuss the changing landscape of mobile software marketplaces, with a focus on free software and digital public goods. My name is Marc Prud'hommeaux and I've been programming computers for 40 years. I've written all manner of apps, great and small, for the iPhone App Store since its inception in 2008, and before. I recently created the App Fair Project to nurture and maintain truly free software for the devices people use everyday. You can reach me at <a href="mailto:marc@appfair.org">marc@appfair.org</a>.
+
+Comments and discussion for this article can be found at <a href="https://news.ycombinator.com/item?id=37589308">Hacker News</a>.
