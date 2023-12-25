@@ -1,3 +1,11 @@
+---
+title:  "A Future for iPhone App Stores, Part I"
+date:   2023-09-20 12:00:00 -0400
+categories: welcome news update
+layout: post
+permalink: /blog/a-future-for-app-stores/
+---
+
 ## A Future for iPhone App Stores, Part I
 ### September 20, 2023
 
