@@ -3,11 +3,11 @@ title:  "A Future for iPhone App Stores, Part I"
 date:   2023-09-20 12:00:00 -0400
 categories: welcome news update
 layout: post
-permalink: /blog/a-future-for-app-stores.html
+#permalink: /blog/a-future-for-app-stores.html
 ---
 
-## A Future for iPhone App Stores, Part I
-### September 20, 2023
+<!-- ## A Future for iPhone App Stores, Part I -->
+<!-- ### September 20, 2023 -->
 
 <style>
 p { text-align: justify; }
@@ -17,7 +17,7 @@ With the announcement of the official Gatekeeper designations under the *Digital
 
 App Store tariffs and regulations have diminished the range and quality of software available to iPhone owners. They are the reason you cannot browse and purchase books from within the Kindle app, and why the massively popular game Fortnite was disappeared from the entire iOS marketplace in August 2020. Furthermore, a gag rule imposed on app developers forbids them from mentioning other avenues of commerce. The Spotify music app's [Premium] tab intimates this with a lone pithy statement: “You can't upgrade to Premium in the app. We know, it's not ideal.”
 
-<img style="margin-left: 1em; width: 50%;" align="right" alt="image of a marketplace" src="a-future-for-app-stores.png" />
+<!-- <img style="margin-left: 1em; width: 50%;" align="right" alt="image of a marketplace" src="a-future-for-app-stores.png" /> -->
 
 But by March of 2024 – the date that gatekeepers must be in full compliance and good standing with the rules of the DMA – joyous gamers will again be able to show off their Fortnite dance mojo from the comfort of their iPhones. Consumers will likely be able to browse and buy books from within the Kindle app, purchase a music subscription from within the Spotify app, and pay for goods and services using their preferred digital payment service provider rather than having one imposed by their device's operating system. And the door will finally be open for truly free software to compete on a level playing field alongside commercial vendors.
 

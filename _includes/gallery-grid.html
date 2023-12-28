@@ -1,0 +1,28 @@
+<section class="gallery">
+  <div class="gallery-grid">
+
+  {% for item in site.gallery %}
+    <div class="gallery">
+      <h3>{{ item.title }}</h3>
+      <a href="{{ page.gallerybase }}{{ item.img }}">
+      <picture>
+      <source srcset="{{ page.gallerybase }}{{ item.img }}/{{ item.img }}_light.png" media="(prefers-color-scheme: light)" />
+      <img src="{{ page.gallerybase }}{{ item.img }}/{{ item.img }}_dark.png" alt="{{ item.description | escape }}" />
+      </picture>
+      </a>
+
+      <hr />
+
+      <strong>View:</strong>
+      <a href="{{ page.gallerybase }}{{ item.img }}/{{ item.img }}.html">HTML5</a>
+      –
+      <a href="{{ page.gallerybase }}{{ item.img }}/{{ item.img }}.svg">SVG</a>
+      –
+      <a href="{{ page.gallerybase }}{{ item.img }}/{{ item.img }}.pdf">PDF</a>
+      –
+      <a href="{{ page.gallerybase }}{{ item.img }}/{{ item.img }}.png">PNG</a>
+      <hr />
+    </div>
+  {% endfor %}
+  </div>
+</section>

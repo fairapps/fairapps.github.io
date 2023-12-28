@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+
+  <body>
+    {%- include header.html -%}
+
+    {% assign parts = page.url | split: "/" %}
+    {% assign base = parts | last %}
+
+    <main>
+
+    <br />
+
+    <section class="page-content gallery">
+        <div>
+        {{ content }}
+        </div>
+    </section>
+
+    <div class="centered">
+        <iframe src="{{ base }}.html" allow="fullscreen" style="resize: both; width: 700px; height: 700px; flex-grow: 1; border: none; margin: auto;"></iframe>
+      </div>
+    </div>
+
+
+    <section class="page-content centered">
+        <div>
+
+        <hr />
+
+        <strong>Download:</strong>
+        <a href="{{ base }}.html">HTML5</a>
+        –
+        <a href="{{ base }}.svg">SVG</a>
+        –
+        <a href="{{ base }}.pdf">PDF</a>
+        –
+        <a href="{{ base }}.png">PNG</a>
+
+        </div>
+        <hr />
+
+        <div style="display: flex; justify-content: center; align-items: center; margin: auto 0; padding: 0 200px;">
+          <a href="{{ base }}_light.png">
+          <img style="width: 400px;" alt="Screenshot Light" src="{{ base }}_light.png">
+          </a>
+
+          <a href="{{ base }}_dark.png">
+          <img style="width: 400px;" alt="Screenshot Dark" src="{{ base }}_dark.png">
+          </a>
+
+        </div>
+
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

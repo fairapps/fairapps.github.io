@@ -1,6 +1,7 @@
 ---
 name: AppFair
 title: The App Fair Project
+layout: default
 ---
 
 <p align="center">

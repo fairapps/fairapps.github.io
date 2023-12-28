@@ -1,0 +1,53 @@
+<hr style="margin: 0px; padding: 0px;"/>
+<footer>
+  <div class="site-width">
+    <div class="footer-contents">
+      <div>
+        <div class="logo">
+          <a href="/">
+            <span class="app">App</span><span class="Fair">Fair</span>
+          </a>
+        </div>
+        <p>{{ site.tagline | escape }}</p>
+        <!-- <a onclick="theme_switch()" style="cursor: grab; user-select: none;"><span id="theme_readout">Site</span> Theme</a> -->
+
+      </div>
+      <nav>
+        <!--
+        <section>
+          <h5>Organization</h5>
+          {%- for path in site.company_pages -%}
+            {%- assign navpage = site.pages | where: "path", path | first -%}
+            {%- if navpage.title -%}
+            <a href="{{ navpage.url | relative_url }}">{{ navpage.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </section>
+        -->
+
+        <section>
+          <h5>Connect</h5>
+          {%- for path in site.connect_pages -%}
+            {%- assign navpage = site.pages | where: "path", path | first -%}
+            {%- if navpage.title -%}
+            <a href="{{ navpage.url | relative_url }}">{{ navpage.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+          <a href="mailto:info@appfair.org?subject={{ "" | append: page.title | uri_escape }}">Email: info@appfair.org</a>
+          <a href="/feed.xml">RSS: appfair.org/feed.xml</a>
+        </section>
+    </nav>
+
+
+    </div>
+    <!-- <div id="copyright">
+      Copyright &copy; 2023 Glimpse I/O, Inc. All rights reserved.
+    </div> -->
+  </div>
+</footer>
+
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+{%- comment -%}
+<!-- <script src="{{ "/assets/js/aos.js" | relative_url }}"></script> -->
+<!-- <script src="{{ "/assets/js/sweetalert.min.js" | relative_url }}"></script> -->
+{%- endcomment -%}
