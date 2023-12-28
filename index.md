@@ -5,14 +5,11 @@ layout: default
 ---
 
 <p align="center">
-<img alt="The App Fair logo" align="center" style="height: 40vh;" src="appfair-icon.svg" />
-<h1 style="text-align: center; font-family: ui-rounded, Arial Rounded MT Bold, Arial Rounded Bold, Helvetica Rounded, Arial, sans-serif;">The App Fair Project</h1>
+<!-- <img alt="The App Fair logo" align="center" style="height: 40vh;" src="appfair-icon.svg" /> -->
+<h1 style="text-align: center;">The App Fair Project</h1>
 </p>
 
-The App Fair Project is dedicated to creating, publishing, distributing, and maintaining software applications for the public good.
+The App Fair Project is a non-profit corporation dedicated to creating, publishing, distributing, and maintaining mobile software applications for the public good. The project was founded in 2022 as a nexus for free apps to be maintained, translated, and distributed globally.
 
-The App Fair Project is based in the Commonwealth of Massachusetts. It is an independent nonprofit charity and tax-exempt under section 501(c)(3) of the Internal Revenue Code. Our EIN number is 88-1461874.
-
-
-Contact us at [project@appfair.org](mailto:project@appfair.org) for information on programs, volunteer opportunities, and upcoming events.
+Contact us at [info@appfair.org](info:project@appfair.org) for information on programs, volunteer opportunities, and upcoming events.
 

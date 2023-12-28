@@ -39,12 +39,6 @@ Our goal is to provide a free and ubiquitous source of apps that smartphone user
 
 <!-- The next step is to complete the Android half of the equation, in order to achieve the goal of ubiquity.  -->
 
-<!-- Our second app – a web browser called Net Skip – halted development when Apple blocked the release of the app due to our using "DuckDuckGo" as the default search engine and home page. Discussions over this issue are ongoing, but it led to our decision to seek alternative avenues for app distribution. The timely passing of the Digital Markets Act (discussed in our earlier [post](https://appfair.org/blog/a-future-for-app-stores)) means that Apple will need to permit 3rd party app stores on their phones. 
-
-This is how we intend to distribute our iOS apps going forward: through our own App Fair app store app. We've requested the necessary entitlements from Apple and are waiting for them to grant it. -->
-
-
-
 <!-- 
 One single app project can provide utility to over one half of the human population.
 
