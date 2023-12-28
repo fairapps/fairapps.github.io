@@ -10,7 +10,6 @@
         </div>
         <p>{{ site.tagline | escape }}</p>
         <small>The App Fair Project is a 501(c)3 non-profit public charity<br />incorporated in the Commonwealth of Massachusetts.</small>
-        <!-- <a onclick="theme_switch()" style="cursor: grab; user-select: none;"><span id="theme_readout">Site</span> Theme</a> -->
 
       </div>
       <nav>
@@ -27,7 +26,7 @@
         -->
 
         <section>
-          <h5>Connect</h5>
+          <!-- <h5>Connect</h5> -->
           {%- for path in site.connect_pages -%}
             {%- assign navpage = site.pages | where: "path", path | first -%}
             {%- if navpage.title -%}
@@ -36,6 +35,9 @@
           {%- endfor -%}
           <a href="mailto:info@appfair.org?subject={{ "" | append: page.title | uri_escape }}">Email: info@appfair.org</a>
           <a href="/feed.xml">RSS: appfair.org/feed.xml</a>
+          <a href="https://github.com/appfair">Source: github.com/appfair</a>
+          <a onclick="theme_switch()" style="cursor: grab; user-select: none;"><span id="theme_readout">Site</span> Theme</a>
+
         </section>
     </nav>
 
