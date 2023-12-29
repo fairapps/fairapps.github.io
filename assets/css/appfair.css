@@ -3,29 +3,76 @@
   /* color-scheme: light dark;  */
   /* color-scheme: light dark;  */
   /* accent-color: green; */
+  /* background-color: whitesmoke;  */
+
 }
 /* :root { color-scheme: light; } */
 
-@media (prefers-color-scheme: dark-disabled) { 
+/* @media (prefers-color-scheme: dark-disabled) { 
   :root { 
     color: white;
-    background-color: #1e1e1e; 
   }
+} */
+
+html { 
+  /* background-color: #3498db77;  */
+  
+  /* background-color: #3498db55;  */
+  /* background: -webkit-gradient(
+     linear,
+     left top,
+     left bottom,
+     color-stop(0.5, #8BC63E),
+     color-stop(0.5, #EEEEEE)
+   );
+   background: -o-linear-gradient(bottom, #8BC63E 50%, #EEEEEE 50%);
+   background: -moz-linear-gradient(bottom, #8BC63E 50%, #EEEEEE 50%);
+   background: -webkit-linear-gradient(bottom, #8BC63E 50%, #EEEEEE 50%);
+   background: -ms-linear-gradient(bottom, #8BC63E 50%, #EEEEEE 50%); */
+   /* background-image: linear-gradient(to right, #fc5c7d55, #6a82fb55); */
+
+  background-image: radial-gradient(circle, #FFFFFF 0%, #3498db77 100%); 
+  
+  
+  /* background-image: linear-gradient(to right, #fc5c7d, #6a82fb); */
+  
+  /* background-image: radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% ); */
+
 }
 
 body { 
   /* background: #f8f8f8; */
   /* color: #555555; */
   /* background-color: #00000033;  */
-  /* background-color: #FFFFFF;  */
 
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
   margin: 0; 
+
+}
+
+header { 
+  height: 60px;
+  margin-bottom: 60px; 
+  font-size: 0.9em; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  z-index: 99; 
+  transition: all 0.1s ease; 
+  border-bottom: 1px solid transparent; 
 }
 
 main { 
   line-height: 160%; 
   margin-top: 60px; 
+  background-color: #FFFFFF99; 
+}
+
+footer { 
+  /* color: #272727; */
+  padding: 75px 0; 
+  font-size: 0.8em; 
 }
 
 /* Prevent footnote superscripts from pushing lines apart */
@@ -110,11 +157,10 @@ section.gray-row { background-color: #f9f9f9; }
 
 @media (prefers-color-scheme: dark-disabled) { section.gray-row { background-color: #2a2a2a; } }
 
-header { height: 60px; margin-bottom: 60px; font-size: 0.9em; position: fixed; top: 0; left: 0; right: 0; z-index: 99; transition: all 0.2s ease; border-bottom: 1px solid transparent; }
-
 header.floating { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid #e6e6e6; background-color: rgba(255, 255, 255, 0.72); }
 
 @media (prefers-color-scheme: dark-disabled) { header.floating { background-color: rgba(30, 30, 30, 0.72); border-color: #333437; } }
+
 
 header > div { height: 100%; display: flex; align-items: center; }
 
@@ -156,8 +202,6 @@ body.sidebar-enabled nav { left: 0; }
 .logo .app { font-weight: 400; letter-spacing: 1px; }
 
 .logo .fair { font-weight: 200; letter-spacing: 2px; }
-
-footer { color: #272727; background-color: #f0f0f0; padding: 75px 0; font-size: 0.8em; }
 
 @media (prefers-color-scheme: dark-disabled) { footer { color: #dcdddd; background-color: #464646; } }
 
