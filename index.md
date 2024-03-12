@@ -22,6 +22,7 @@ layout: default
 </h1>
 </p>
 
+<p>
 <span lang="en">The App Fair Project is a non-profit charitable organization dedicated to creation of mobile software applications for the public good. The project was founded in 2022 as a worldwide nexus for free apps to be built, distributed, and maintained.</span>
 <span lang="fr">Le projet App Fair est une organisation caritative à but non lucratif dédiée à la création d'applications logicielles mobiles pour le bien public. Le projet a été fondé en 2022 en tant que nœud central mondial pour la construction, la distribution et la maintenance d'applications gratuites.</span>
 <span lang="es">El Proyecto App Fair es una organización benéfica sin fines de lucro dedicada a la creación de aplicaciones de software móvil para el bien público. El proyecto fue fundado en 2022 como un nexo mundial para que las aplicaciones gratuitas sean construidas, distribuidas y mantenidas.</span>
@@ -34,8 +35,31 @@ layout: default
 <span lang="zh-cn">App Fair 计划是一家致力于为公共利益开发移动软件应用程序的非营利性慈善机构。该计划于 2022 年成立，旨在成为全球免费应用程序的建设、分发和维护中心。</span>
 <span lang="zh-tw">App Fair項目是一個致力於為公共利益創建移動軟體應用程序的非營利慈善機構。該項目於2022年成立，旨在成為免費應用程序的全球中心，用於建立、分發和維護。</span>
 <span lang="ar">مشروع برنامج التطبيقات النموذجية هو مؤسسة خيرية غير ربحية مخصصة لإنشاء تطبيقات البرمجيات اللاسلكية للمصلحة العامة. تم تأسيس المشروع في عام 2022 بهدف توفير مركز عالمي لبناء وتوزيع وصيانة التطبيقات المجانية.</span>
+</p>
+    
+<!-- 
+<h3 style="text-align: center;">
+    <span lang="en">No ads. No trackers. No surveillance.</span>
+    <span lang="fr">Pas de publicités. Pas de traceurs. Pas de surveillance.</span>
+    <span lang="es">Sin anuncios. Sin rastreadores. Sin vigilancia.</span>
+    <span lang="pt">Sem anúncios. Sem rastreadores. Sem vigilância.</span>
+    <span lang="it">Nessun annuncio. Nessun tracciamento. Nessuna sorveglianza.</span>
+    <span lang="de">Keine Werbung. Keine Tracker. Keine Überwachung.</span>
+    <span lang="ru">Нет рекламы. Нет трекеров. Нет наблюдения.</span>
+    <span lang="ja">広告なし。トラッカーなし。監視なし。</span>
+    <span lang="ko">광고 없음. 트래커 없음. 감시 없음.</span>
+    <span lang="zh-cn">无广告。无跟踪器。无监视。</span>
+    <span lang="zh-tw">無廣告。無追踪器。無監視。</span>
+    <span lang="ar">لا إعلانات. لا تتبع. لا رقابة.</span>
+</h3>
+ -->
+ 
+<!--
+<p>
+<span lang="en">All too often, the apps we use on a daily basis are mis-labeled as being "free", when they are in fact anything but free. Aside from deceptive in-app purchase schemes and subscriptions, there are a plethora of mechanisms that are routinely used to extract profit from unwitting consumers. The most common of these include embedded surveillance.</span>
+</p> -->
 
-
+<p>
 <span lang="en">App Fair apps contain no built-in ad-tech or non-consensual tracking technologies. They are created from free and open-source software and are funded solely by donations and grants.</span>
 <span lang="fr">Les applications App Fair ne contiennent aucune technologie publicitaire intégrée ou de suivi non consensuel. Elles sont créées à partir de logiciels libres et open source et sont financées uniquement par des dons et des subventions.</span>
 <span lang="es">Las aplicaciones de App Fair no contienen tecnología publicitaria integrada ni tecnologías de seguimiento no consensuadas. Se crean a partir de software libre y de código abierto y están financiadas únicamente por donaciones y subvenciones.</span>
@@ -48,8 +72,9 @@ layout: default
 <span lang="zh-cn">App Fair应用程序不包含任何内置的广告技术或非同意跟踪技术。它们是从免费和开源软件创建出来的，并且仅由捐赠和资助支持。</span>
 <span lang="zh-tw">App Fair應用程序不包含任何內置的廣告技術或非同意追踪技術。它們是從免費和開源軟件創建出來的，並且僅由捐贈和資助支持。</span>
 <span lang="ar">لا تحتوي تطبيقات App Fair على أي تكنولوجيات إعلانية مضمنة أو تكنولوجيات تتبع غير موافق عليها. إنها تُنشأ من برمجيات حرة ومفتوحة المصدر وتُمول بشكل وحيد عن طريق التبرعات والعطاءات.</span>
+</p>
 
-
+<p>
 <span lang="en">Our first project is launching an iPhone app store in the European Union in 2024 to distribute these community-led applications, starting with our "Net Skip" web browser. The "App Fair" marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 <span lang="fr">Notre premier projet consiste à lancer un magasin d'applications iPhone dans l'Union européenne en 2024 pour distribuer ces applications dirigées par la communauté, à commencer par notre navigateur web "Net Skip". L'application de marché "App Fair" sera utilisée pour découvrir, examiner, installer et mettre à jour les applications de notre catalogue.</span>
 <span lang="es">Nuestro primer proyecto es lanzar una tienda de aplicaciones para iPhone en la Unión Europea en 2024 para distribuir estas aplicaciones lideradas por la comunidad, comenzando con nuestro navegador web "Net Skip". La aplicación de mercado "App Fair" se utilizará para descubrir, revisar, instalar y actualizar las aplicaciones de nuestro catálogo.</span>
@@ -62,7 +87,7 @@ layout: default
 <span lang="zh-cn">我们的首个项目是在2024年在欧盟推出一个iPhone应用商店，以分发这些社区领导的应用程序，从我们的“Net Skip”网络浏览器开始。“App Fair”市场应用程序将用于发现、审阅、安装和更新我们目录中的应用程序。</span>
 <span lang="zh-tw">我們的首個項目是在2024年在歐盟推出一個iPhone應用商店，以分發這些社區領導的應用程序，從我們的“Net Skip”網路瀏覽器開始。“App Fair”市場應用程序將用於發現、審閱、安裝和更新我們目錄中的應用程序。</span>
 <span lang="ar">مشروعنا الأول هو إطلاق متجر تطبيقات iPhone في الاتحاد الأوروبي في عام 2024 لتوزيع هذه التطبيقات المقيدة من قبل المجتمع، بدءًا بمتصفح الويب "Net Skip" الخاص بنا. سيتم استخدام تطبيق "App Fair" للسوق لإكتشاف ومراجعة وتثبيت وتحديث التطبيقات في دليلنا.</span>
-
+</p>
 
 <span lang="en">Contact us at <a href="mailto:info@appfair.org">info@appfair.org</a> for information on programs, volunteer opportunities, and upcoming events.</span>
 <span lang="fr">Contactez-nous à <a href="mailto:info@appfair.org">info@appfair.org</a> pour obtenir des informations sur les programmes, les opportunités de bénévolat et les événements à venir.</span>

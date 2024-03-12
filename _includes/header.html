@@ -11,8 +11,20 @@
       Translate the following HTML (preserving the trademark "App Fair") from English into French, Spanish, Portuguese, Italian, German, Russian, Japanese, Korean, Chinese, and Arabic:
   -->
   
+  <!-- the top-level page will redirect based on the user's language -->
+  {% if page.url == "" or page.url == "/" %}
+  <script>
+  var userLang = navigator.language || navigator.userLanguage;
+    {% for language in site.languages %}
+    if (userLang == '{{ language }}' || userLang.startsWith('{{ language }}-')) {
+      window.location.href = '/{{ language }}/'
+    }
+    {% endfor %}
+  </script>
+  {% endif %}
+  
   {% for language in site.languages %}
-  <link rel="alternate" href="{{ language }}/{{ page_base }}" hreflang="{{ language }}" />
+  <link rel="alternate" href="/{{ language }}{{ page_base }}" hreflang="{{ language }}" />
   {% endfor %}
   
   <!-- span:lang elements will be selectively hidden based on the current selected language -->
@@ -62,9 +74,4 @@
     </nav>
     {%- endif -%}
   </div>
-  <script>
-  if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
-    document.getElementById("local-banner").style.display = "block";
-  }
-</script>
 </header>
