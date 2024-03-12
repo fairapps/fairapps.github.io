@@ -22,10 +22,6 @@ layout: default
 </h1>
 </p>
 
-<!-- 
-    Translate the following HTML (preserving the trademark "App Fair") from English into French, Spanish, Portuguese, Italian, German, Russian, Japanese, Korean, Chinese, and Arabic:
--->
-
 <span lang="en">The App Fair Project is a non-profit charitable organization dedicated to creation of mobile software applications for the public good. The project was founded in 2022 as a worldwide nexus for free apps to be built, distributed, and maintained.</span>
 <span lang="fr">Le projet App Fair est une organisation caritative à but non lucratif dédiée à la création d'applications logicielles mobiles pour le bien public. Le projet a été fondé en 2022 en tant que nœud central mondial pour la construction, la distribution et la maintenance d'applications gratuites.</span>
 <span lang="es">El Proyecto App Fair es una organización benéfica sin fines de lucro dedicada a la creación de aplicaciones de software móvil para el bien público. El proyecto fue fundado en 2022 como un nexo mundial para que las aplicaciones gratuitas sean construidas, distribuidas y mantenidas.</span>

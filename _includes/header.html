@@ -6,7 +6,11 @@
   {% assign url_lang = 'en' %}
   {% assign page_base = page.url %}
 {% endif %}
-<head>
+<head>  
+  <!-- 
+      Translate the following HTML (preserving the trademark "App Fair") from English into French, Spanish, Portuguese, Italian, German, Russian, Japanese, Korean, Chinese, and Arabic:
+  -->
+  
   {% for language in site.languages %}
   <link rel="alternate" href="{{ language }}/{{ page_base }}" hreflang="{{ language }}" />
   {% endfor %}
