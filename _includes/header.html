@@ -1,3 +1,25 @@
+{% assign url_parts = page.url | split: '/' %}
+{% if site.languages contains url_parts[1] %}
+  {% assign url_lang = url_parts[1] %}
+  {% assign page_base = url_parts | slice: 2 | join: '/' %}
+{% else %}
+  {% assign url_lang = 'en' %}
+  {% assign page_base = page.url %}
+{% endif %}
+<head>
+  {% for language in site.languages %}
+  <link rel="alternate" href="{{ language }}/{{ page_base }}" hreflang="{{ language }}" />
+  {% endfor %}
+  
+  <!-- span:lang elements will be selectively hidden based on the current selected language -->
+  <style>
+    {% for language in site.languages %}
+    span:lang({{ language }}) { {% if url_lang != language %} display: none; {% endif %} }
+    {% endfor %}
+  </style>
+  
+</head>
+
 <header>
   <!-- <div id="local-banner" style="display: none; text-align: center; vertical-align: center; height: 4px; font-weight: bold; font-face: system-ui,helvetica; width: 100%; padding: 0px; margin: 0px; top: 0px; right: 0px; background-color: red; color: white;"></div> -->
   <div class="site-width">
@@ -22,7 +44,13 @@
             <a class="page-link {% if navpage.path == page.path %}selected{% endif %}" href="{{ navpage.url | relative_url }}">{{ navpage.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-          
+
+          {%- for lang in site.languages -%}
+            <!-- TODO: localize each page (e.g., the blog), not just the top-level pages -->
+            <!-- <a class="page-link" href="/{{ lang }}{{ page_base }}">{{ site.language_names[lang] }}</a> -->
+            <a class="page-link" href="/{{ lang }}">{{ site.language_names[lang] }}</a>
+          {%- endfor -%}
+    
           {%- comment -%}
           {%- endcomment -%}
       </span>

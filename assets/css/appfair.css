@@ -172,7 +172,7 @@ header .icon { width: 32px; height: 32px; vertical-align: bottom; filter: none; 
 
 @media (prefers-color-scheme: dark-disabled) { header .icon { filter: invert(100%); } }
 
-header nav { flex: 0 1 67%; text-align: right; }
+header nav { flex: 0 1 80%; text-align: right; white-space: nowrap; }
 
 header nav a { text-decoration: none; color: #464646; }
 
@@ -727,5 +727,6 @@ pre {
 .highlight .vg { color: #000000 } /* Name.Variable.Global */
 .highlight .vi { color: #000000 } /* Name.Variable.Instance */
 .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+
 
 

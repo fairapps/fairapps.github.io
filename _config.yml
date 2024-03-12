@@ -1,6 +1,34 @@
 #theme: jekyll-theme-hacker
 name: appfair.org
 
+languages:
+  - en
+  - fr
+  - es
+  - pt
+  - it
+  - de
+  - ru
+  - ja
+  - ko
+  - zh-cn
+  - zh-tw
+  - ar
+
+language_names:
+  en: English
+  fr: Français
+  es: Español
+  pt: Português
+  it: Italiano
+  de: Deutsch
+  ru: Русский
+  ja: 日本語
+  ko: 한국어
+  zh-cn: 简体中文
+  zh-tw: 繁體中文
+  ar: العربية
+
 collections:
   posts:
     output: true

@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ url_lang }}">
   {%- include head.html -%}
-
-
   <body>
     {%- include header.html -%}
-
     <main>
       <section class="page-content">
         {{ content }}
       </section>
     </main>
-
     {%- include footer.html -%}
-
   </body>
-
 </html>
