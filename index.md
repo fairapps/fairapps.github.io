@@ -75,7 +75,7 @@ layout: default
 </p>
 
 <p>
-<span lang="en">Our first project is launching an iPhone app store in the European Union in 2024 to distribute these community-led applications, starting with our "Net Skip" web browser. The "App Fair" marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
+<span lang="en">Our first project is launching an iPhone app store in the European Union in 2024 to distribute these community-led applications, starting with a collection of general-interest utilities and applications. The "App Fair" marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 <span lang="fr">Notre premier projet consiste à lancer un magasin d'applications iPhone dans l'Union européenne en 2024 pour distribuer ces applications dirigées par la communauté, à commencer par notre navigateur web "Net Skip". L'application de marché "App Fair" sera utilisée pour découvrir, examiner, installer et mettre à jour les applications de notre catalogue.</span>
 <span lang="es">Nuestro primer proyecto es lanzar una tienda de aplicaciones para iPhone en la Unión Europea en 2024 para distribuir estas aplicaciones lideradas por la comunidad, comenzando con nuestro navegador web "Net Skip". La aplicación de mercado "App Fair" se utilizará para descubrir, revisar, instalar y actualizar las aplicaciones de nuestro catálogo.</span>
 <span lang="pt">Nosso primeiro projeto é lançar uma loja de aplicativos para iPhone na União Europeia em 2024 para distribuir esses aplicativos liderados pela comunidade, começando com nosso navegador da web "Net Skip". O aplicativo de mercado "App Fair" será usado para descobrir, revisar, instalar e atualizar os aplicativos em nosso catálogo.</span>
