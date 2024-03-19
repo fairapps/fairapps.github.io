@@ -11,9 +11,9 @@ Apple's team of three, headed by Kyle Andeer (formerly an FTC trial lawyer), gam
 
 Questioners were selected randomly from the attendees (both in-person and online). I managed to get two in. Following are my questions and their responses (pulled out of a whisper-generated transcript from the video, which can be accessed [here](https://gist.github.com/appfairz/83e179243971f65bea36745bc2e15ce5)).
 
-#### Question (Marc Prud'hommeux, the App Fair Project):
+#### Question (Marc Prud'hommeux, the App Fair Project) ([transcript link](https://gist.github.com/appfairz/83e179243971f65bea36745bc2e15ce5#file-apple_eu_dma_compliance_workshop_whisper_transcript-txt-L2817)):
 
-> Hi, my name is Marc Prud'hommeux, and I'm here representing the nonprofit App Fair Project, which is building an app marketplace to create and distribute free and open source apps as non-commercial digital public goods.
+> Hi, my name is Marc Prud'hommeaux, and I'm here representing the nonprofit App Fair Project, which is building an app marketplace to create and distribute free and open source apps as non-commercial digital public goods.
 > 
 > To be approved for an iPhone app marketplace entitlement, Apple is currently requiring that an organization, either 1: have been an Apple developer program member for two years and have an app that has been downloaded one million times in the EU in the previous year.
 > 
@@ -29,7 +29,7 @@ Questioners were selected randomly from the attendees (both in-person and online
 > 
 > And what is the objective fairness and reasonableness standard that prevents Apple from increasing that number to 10 million euros or 100 million euros or some arbitrarily high amount that would effectively exclude all alternative app marketplaces at some point in the future?
 
-#### Answer (Kyle Andeer, Apple):
+#### Answer (Kyle Andeer, Apple) ([transcript link](https://gist.github.com/appfairz/83e179243971f65bea36745bc2e15ce5#file-apple_eu_dma_compliance_workshop_whisper_transcript-txt-L2959)):
 
 > Again, when we think about alternative marketplaces and this was something we thought about for a long period of time, we wanted to assure that we had credible and accountable operators of stores and we want to have a single set of objective criteria.
 > 
@@ -52,7 +52,7 @@ Questioners were selected randomly from the attendees (both in-person and online
 > Clearly, it hasn't been an issue for a number of different developers, some of which we've heard from today, some of which we know are out there in terms of being able to secure the line of credit to allow them to enter this program.
 
 
-#### Question (Marc Prud'hommeux, the App Fair Project):
+#### Question (Marc Prud'hommeux, the App Fair Project) ([transcript link](https://gist.github.com/appfairz/83e179243971f65bea36745bc2e15ce5#file-apple_eu_dma_compliance_workshop_whisper_transcript-txt-L5143)):
 
 > Hi, Marc Prud'hommeaux from the App Fair Project.
 > 
@@ -66,7 +66,7 @@ Questioners were selected randomly from the attendees (both in-person and online
 > 
 > Will this app installation launch activity still be reported to Apple, even when they opt out of sharing analytics with Apple?
 
-#### Answer (Kyle Andeer, Apple):
+#### Answer (Kyle Andeer, Apple) ([transcript link](https://gist.github.com/appfairz/83e179243971f65bea36745bc2e15ce5#file-apple_eu_dma_compliance_workshop_whisper_transcript-txt-L5231)):
 
 > In that instance, I'm going to somewhat highlight Apple track record in relation to responding to requests from law enforcement where we consider that the requests are disproportionate or inappropriate and clearly in such circumstances we have shown that we will raise questions about those requests and where appropriate pushback.
 > 
