@@ -1,6 +1,9 @@
 #theme: jekyll-theme-hacker
 name: appfair.org
 
+header_pages:
+  - index
+  
 languages:
   - en
   - fr
