@@ -6,7 +6,7 @@ layout: default
 
 # App Takedown Request Mechanism
 
-The App Fair is committed to maintaining a secure and trustworthy app marketplace. We provide a mechanism to handle governmental and other requests to take down an app from our marketplace on grounds that it is illegal, violates intellectual property rights, or violates the App Fair Project's own terms for apps. This page describes how to submit a takedown request and how we handle such requests.
+The App Fair Project is committed to maintaining a secure and trustworthy app marketplace. We provide a mechanism to handle governmental and other requests to take down an app from our marketplace on grounds that it is illegal, violates intellectual property rights, or violates the App Fair Project's own terms for apps. This page describes how to submit a takedown request and how we handle such requests.
 
 ## 1. Submitting a Takedown Request
 
@@ -50,7 +50,7 @@ If an app developer believes that their app was removed due to a mistake or misi
 - The developer's name, address, telephone number, and email address.
 - A description of the removed app and its location within the App Fair marketplace before removal.
 - A statement, under penalty of perjury, that the developer has a good faith belief that the app was removed or disabled as a result of a mistake or misidentification.
-- A statement that the developer consents to the jurisdiction of the federal district court for the judicial district in which their address is located or, if outside the United States, any judicial district in which the App Fair is located.
+- A statement that the developer consents to the jurisdiction of the federal district court for the judicial district in which their address is located or, if outside the United States, any judicial district in which the App Fair Project is located.
 - A statement that the developer will accept service of process from the party who submitted the takedown request or their agent.
 - The developer's physical or electronic signature.
 

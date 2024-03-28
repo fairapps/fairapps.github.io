@@ -16,7 +16,7 @@ Your app must comply with all applicable laws and regulations in the jurisdictio
 
 ### 1.2 App Content
 
-Apps must not contain or promote any content that is offensive, pornographic, violent, discriminatory, or otherwise inappropriate. App Fair reserves the right to determine what constitutes inappropriate content and to remove any app that violates this policy.
+Apps must not contain or promote any content that is offensive, pornographic, violent, discriminatory, or otherwise inappropriate. The App Fair Project reserves the right to determine what constitutes inappropriate content and to remove any app that violates this policy.
 
 ### 1.3 User Privacy
 
@@ -30,7 +30,7 @@ Your app must not infringe on the intellectual property rights of others. This i
 
 ### 2.1 Free and Open Source
 
-Apps submitted to the App Fair must be free and open source, with their source code publicly available under an OSI-approved open source license.
+Apps submitted to the App Fair Project must be free and open source, with their source code publicly available under an OSI-approved open source license.
 
 ### 2.2 Monetization
 
@@ -44,13 +44,13 @@ If your app displays advertisements, they must not interfere with the user exper
 
 ### 3.1 Submission Process
 
-To submit your app to the App Fair, please provide the following information:
+To submit your app to the App Fair Project, please provide the following information:
 
-App name
-App description
-Link to the app's source code repository
-Link to the app's privacy policy (if applicable)
-Contact information for the developer
+- App name
+- App description
+- Link to the app's source code repository
+- Link to the app's privacy policy (if applicable)
+- Contact information for the developer
 
 ### 3.2 Review Process
 
@@ -58,11 +58,11 @@ The App Fair team will review your submission to ensure it complies with these t
 
 ### 3.3 Updates and Maintenance
 
-Developers are responsible for keeping their apps up-to-date and maintaining their functionality. App Fair may remove apps that are no longer maintained or have become incompatible with the platform.
+Developers are responsible for keeping their apps up-to-date and maintaining their functionality. The App Fair Project may remove apps that are no longer maintained or have become incompatible with the platform.
 
 ## 4. Acceptance of Terms
 
-By submitting your app to the App Fair, you agree to abide by these terms and conditions. If you do not agree with these terms, please do not submit your app.
+By submitting your app to the App Fair Project, you agree to abide by these terms and conditions. If you do not agree with these terms, please do not submit your app.
 
 We look forward to working with you to create a thriving, open source app marketplace! If you have any questions or concerns, please feel free to contact us at [support@appfair.org](mailto:support@appfair.org).
 
