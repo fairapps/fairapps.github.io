@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ url_lang }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main>
+      <section class="page-content">
+        {{ content }}
+
+      <p>
+        <small>
+        {% if page.updated %}
+        Last updated: {{ page.updated | date: "%B %d, %Y" }}
+        {% else %}
+        Published: {{ page.date | date: "%B %d, %Y" }}
+        {% endif %}
+        </small>
+      </p>
+      </section>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>

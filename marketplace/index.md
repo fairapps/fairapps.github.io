@@ -8,12 +8,9 @@ layout: default
 
 The following links contain information on the policies and procedures of the App Fair Project's marketplace.
 
-### [Terms of Distribution for Developers](distribution)
-### [Data Collection Policy](datacollection)
-### [App Security and Malicious Activity Detection](security)
-### [Intellectual Property Review](ip)
-### [IP Dispute Resolution Mechanism](ipdispute)
-### [App Takedown Request Mechanism](takedown)
-
-
-*Last updated: March 21, 2023*
+#### [Terms of Distribution for Developers](distribution)
+#### [Data Collection Policy](datacollection)
+#### [App Security and Malicious Activity Detection](security)
+#### [Intellectual Property Review](ip)
+#### [IP Dispute Resolution Mechanism](ipdispute)
+#### [App Takedown Request Mechanism](takedown)

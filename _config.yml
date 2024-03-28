@@ -1,5 +1,12 @@
 #theme: jekyll-theme-hacker
 name: appfair.org
+title: The App Fair Project
+email: info@appfair.org
+
+tagline: "The universal free and open-source app marketplace"
+
+description: >-
+  The App Fair Project provides a free and open-source marketplace for mobile apps
 
 header_pages:
   - index.md

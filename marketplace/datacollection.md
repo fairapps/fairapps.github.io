@@ -1,7 +1,9 @@
 ---
 name: Data Collection
 # title: The App Fair Project
-layout: default
+layout: marketplace
+date: 2024-03-20
+updated: 2024-03-28
 ---
 
 # Data Collection Policy

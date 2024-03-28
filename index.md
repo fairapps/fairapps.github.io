@@ -24,6 +24,21 @@ layout: default
 <span lang="zh-tw">App Fair項目</span>
 <span lang="ar">مشروع App Fair</span>
 </h1>
+
+<h2 style="text-align: center;">
+<span lang="en">The universal free and open-source app marketplace</span>
+<span lang="fr">Le marché d'applications universel gratuit et open-source</span>
+<span lang="es">El mercado de aplicaciones universal gratuito y de código abierto</span>
+<span lang="pt">A loja de aplicativos universal gratuita e de código aberto</span>
+<span lang="it">Il mercato di app universale gratuito e open-source</span>
+<span lang="de">Der universelle kostenlose und Open-Source-App-Marktplatz</span>
+<span lang="ru">Универсальный бесплатный и открытый рынок приложений</span>
+<span lang="ja">ユニバーサルな無料およびオープンソースアプリマーケットプレイス</span>
+<span lang="ko">유니버설 무료 오픈 소스 앱 마켓플레이스</span>
+<span lang="zh-cn">通用的免费开源应用市场</span>
+<span lang="zh-tw">通用的免費開源應用市場</span>
+<span lang="ar">السوق العالمي الحر ومفتوح المصدر لتطبيقات الهاتف</span>
+</h2>
 </p>
 
 <p>

@@ -1,12 +1,14 @@
 ---
 name: Terms of Distribution for Developers
 # title: The App Fair Project
-layout: default
+layout: marketplace
+date: 2024-03-20
+updated: 2024-03-28
 ---
 
 # Terms of Distribution for Developers
 
-Welcome to the App Fair, a free and open source app marketplace! We're excited to have you on board as a developer. In order to maintain a high-quality and trustworthy platform, we've established some guidelines for distributing apps on our marketplace. Please read the following terms carefully and make sure your apps comply with them.
+Welcome to the App Fair, the free and open source app marketplace! We're excited to have you on board as a developer. In order to maintain a high-quality and trustworthy platform, we've established some guidelines for distributing apps on our marketplace. Please read the following terms carefully and make sure your apps comply with them.
 
 ## 1. Content Guidelines
 
@@ -16,7 +18,7 @@ Your app must comply with all applicable laws and regulations in the jurisdictio
 
 ### 1.2 App Content
 
-Apps must not contain or promote any content that is offensive, pornographic, violent, discriminatory, or otherwise inappropriate. The App Fair Project reserves the right to determine what constitutes inappropriate content and to remove any app that violates this policy.
+The App Fair Project reserves the right to determine what constitutes inappropriate content and to remove any app that violates this policy.
 
 ### 1.3 User Privacy
 
@@ -34,11 +36,11 @@ Apps submitted to the App Fair Project must be free and open source, with their 
 
 ### 2.2 Monetization
 
-Developers may choose to monetize their apps through donations, in-app purchases, or subscriptions, as long as these methods comply with all applicable laws and do not exploit users.
+The App Fair Project is a non-commercial endeavor. Apps are developed and maintained for the common good, not for profit or commercial gain. Developers may not monetize their apps through payment, in-app purchases, subscriptions, or donations.
 
 ### 2.3 Advertisements
 
-If your app displays advertisements, they must not interfere with the user experience or be deceptive. Apps must also comply with applicable advertising laws and regulations.
+The App Fair Project is a non-commercial endeavor. Apps may not embedded advertisements for products of services of any kind, and may not track or surveil users without their explicit consent.
 
 ## 3. App Submission and Review
 
@@ -65,5 +67,3 @@ Developers are responsible for keeping their apps up-to-date and maintaining the
 By submitting your app to the App Fair Project, you agree to abide by these terms and conditions. If you do not agree with these terms, please do not submit your app.
 
 We look forward to working with you to create a thriving, open source app marketplace! If you have any questions or concerns, please feel free to contact us at [support@appfair.org](mailto:support@appfair.org).
-
-*Last updated: March 21, 2023*
