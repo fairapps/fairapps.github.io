@@ -51,5 +51,3 @@ We are committed to improving our intellectual property review process and stayi
 
 By carefully reviewing apps for intellectual property infringement, we strive to create a trustworthy and compliant app marketplace. If you have any questions or concerns about our intellectual property review process, please feel free to contact us at [copyright@appfair.org](mailto:copyright@appfair.org).
 
-
-*Last updated: March 21, 2023*

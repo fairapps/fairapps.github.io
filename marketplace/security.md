@@ -36,4 +36,3 @@ We are constantly working to improve our fraud and malicious activity detection 
 
 By combining automated scanning, manual human review, and the natural security provided by open source transparency, we strive to create a safe and secure app marketplace for all users. If you have any questions or concerns about our fraud and malicious activity detection efforts, please feel free to contact us at [security@appfair.org](mailto:security@appfair.org).
 
-*Last updated: March 21, 2023*

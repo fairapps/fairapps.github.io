@@ -60,7 +60,3 @@ Upon receiving a valid counter-notification, we will forward it to the party who
 
 By providing a mechanism to handle takedown requests, we strive to maintain a marketplace that complies with legal requirements and respects the rights of all parties involved. If you have any questions or concerns about our takedown request process, please feel free to contact us at [takedown-request@appfair.org](mailto:takedown-request@appfair.org).
 
-
-
-
-*Last updated: March 21, 2023*

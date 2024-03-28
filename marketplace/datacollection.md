@@ -53,6 +53,3 @@ Please note that apps available on the App Fair may have their own data collecti
 ## 5. Contact Us
 
 If you have any questions or concerns about our data collection policies, please feel free to contact us at [privacy@appfair.org](mailto:privacy@appfair.org).
-
-
-*Last updated: March 21, 2023*

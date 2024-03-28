@@ -59,4 +59,3 @@ If an app developer believes that their app or content was removed due to a mist
 
 By providing a mechanism for reporting and resolving IP disputes, we strive to maintain a marketplace that respects and protects intellectual property rights. If you have any questions or concerns about our IP dispute resolution process, please feel free to contact us at [ip-dispute@appfair.org](mailto:ip-dispute@appfair.org).
 
-*Last updated: March 21, 2023*
