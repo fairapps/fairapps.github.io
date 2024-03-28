@@ -4,7 +4,7 @@ name: appfair.org
 header_pages:
   - index.md
   - blog/index.md
-  - marketplace/index.md
+  # - marketplace/index.md
   
 languages:
   - en
