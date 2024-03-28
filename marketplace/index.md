@@ -1,6 +1,6 @@
 ---
 name: App Fair Project Policies
-# title: The App Fair Project
+title: Marketplace
 layout: default
 ---
 
