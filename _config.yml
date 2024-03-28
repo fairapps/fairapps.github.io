@@ -3,8 +3,8 @@ name: appfair.org
 
 header_pages:
   - index.md
-  - blog/
-  - marketplace/
+  - blog/index.md
+  - marketplace/index.md
   
 languages:
   - en
