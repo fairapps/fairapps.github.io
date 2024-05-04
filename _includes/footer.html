@@ -99,7 +99,7 @@
         -->
 
         <section>
-          <!-- <h5>Connect</h5> -->
+          <h5>Connect</h5>
           {%- for path in site.connect_pages -%}
             {%- assign navpage = site.pages | where: "path", path | first -%}
             {%- if navpage.title -%}
@@ -112,9 +112,20 @@
           <a href="https://signal.me/#eu/psP7UW7frgEaKzPVql5dLImcalsA9afCGySjXkr1BexCuEF0OvdE9KAqzcTVIP5l">Signal: @appfair.01</a>
           <a href="/feed.xml">RSS: appfair.org/feed.xml</a>
           <a href="https://github.com/appfair">Source: github.com/appfair</a>
+          <a href="https://github.com/orgs/appfair/discussions">Discussions</a>
+          
           <!-- <a onclick="theme_switch()" style="cursor: grab; user-select: none;"><span id="theme_readout">Site</span> Theme</a> -->
         </section>
-    </nav>
+<!-- 
+        <section>
+          <h5>Marketplace Policies</h5>
+          <a href="/marketplace/datacollection">Data Collection</a>
+          <a href="/marketplace/distribution">Distribution</a>
+          <a href="/marketplace/ip">Intellectual Property</a>
+          <a href="/marketplace/security">Security</a>
+        </section>
+       -->
+      </nav>
     </div>
   </div>
 </footer>

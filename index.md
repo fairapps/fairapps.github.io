@@ -79,7 +79,7 @@ layout: default
 </p> -->
 
 <p>
-<span lang="en">App Fair apps contain no built-in ad-tech or non-consensual tracking technologies. They are created from free and open-source software and are funded solely by donations and grants.</span>
+<span lang="en">App Fair apps will cost nothing, and contain no built-in ad-tech or non-consensual tracking technologies. They do not attempt to monetize the attention of the user in any way. They are created from free and open-source software and are funded solely by donations and grants.</span>
 <span lang="fr">Les applications App Fair ne contiennent aucune technologie publicitaire intégrée ou de suivi non consensuel. Elles sont créées à partir de logiciels libres et open source et sont financées uniquement par des dons et des subventions.</span>
 <span lang="es">Las aplicaciones de App Fair no contienen tecnología publicitaria integrada ni tecnologías de seguimiento no consensuadas. Se crean a partir de software libre y de código abierto y están financiadas únicamente por donaciones y subvenciones.</span>
 <span lang="pt">Os aplicativos do App Fair não contêm tecnologia publicitária integrada ou tecnologias de rastreamento não consensuais. Eles são criados a partir de software livre e de código aberto e são financiados exclusivamente por doações e subsídios.</span>
@@ -94,19 +94,11 @@ layout: default
 </p>
 
 <p>
-<span lang="en">Our first project is launching an iPhone app store in the European Union in 2024 to distribute these community-led applications, starting with a collection of general-interest utilities and applications. The <i>App Fair</i> marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
-<span lang="fr">Notre premier projet est de lancer un magasin d'applications iPhone dans l'Union Européenne en 2024 pour distribuer ces applications dirigées par la communauté, commençant par une collection d'utilitaires et d'applications d'intérêt général. L'application de marché "App Fair" sera utilisée pour découvrir, examiner, installer et mettre à jour les applications de notre catalogue.</span>
-<span lang="es">Nuestro primer proyecto es lanzar una tienda de aplicaciones para iPhone en la Unión Europea en 2024 para distribuir estas aplicaciones lideradas por la comunidad, comenzando con una colección de utilidades y aplicaciones de interés general. La aplicación de mercado "App Fair" se utilizará para descubrir, revisar, instalar y actualizar las aplicaciones de nuestro catálogo.</span>
-<span lang="pt">Nosso primeiro projeto é lançar uma loja de aplicativos para iPhone na União Europeia em 2024 para distribuir estes aplicativos liderados pela comunidade, começando com uma coleção de utilitários e aplicativos de interesse geral. O aplicativo de mercado "App Fair" será usado para descobrir, revisar, instalar e atualizar os aplicativos de nosso catálogo.</span>
-<span lang="it">Il nostro primo progetto è quello di lanciare un negozio di app per iPhone nell'Unione Europea nel 2024 per distribuire queste applicazioni guidate dalla community, a partire da una collezione di utility e applicazioni di interesse generale. L'app di mercato "App Fair" verrà utilizzata per scoprire, rivedere, installare e aggiornare le app del nostro catalogo.</span>
-<span lang="de">Unser erstes Projekt ist der Start eines iPhone-App-Stores in der Europäischen Union im Jahr 2024, um diese von der Community geleiteten Anwendungen zu vertreiben, beginnend mit einer Sammlung von Dienstprogrammen und Anwendungen von allgemeinem Interesse. Die "App Fair"-Marktplatz-App wird verwendet, um die Apps in unserem Katalog zu entdecken, zu überprüfen, zu installieren und zu aktualisieren.</span>
-<span lang="ru">Наш первый проект - запуск магазина приложений iPhone в Европейском союзе в 2024 году для распространения этих приложений, управляемых сообществом, начиная с коллекции утилит и приложений общего назначения. Приложение магазина "App Fair" будет использоваться для открытия, просмотра, установки и обновления приложений в нашем каталоге.</span>
-<span lang="ja">私たちの最初のプロジェクトは、2024年に欧州連合でアイフォンアプリストアを開設し、これらのコミュニティリードアプリケーションを配布することです。それは、汎用的なユーティリティやアプリケーションから始めます。「App Fair」マーケットプレースアプリは、カタログにあるアプリを探し、レビューし、インストールし、アップデートするために使用されます。</span>
-<span lang="ko">우리의 첫 번째 프로젝트는 이러한 커뮤니티 주도 애플리케이션을 유통하기 위해 2024년 EU에서 iPhone 앱 스토어를 출시하는 것입니다. 범용 유틸리티 및 애플리케이션부터 시작합니다. "앱 페어" 마켓플레이스 앱은 카탈로그에서 앱을 찾고, 검토하고, 설치하고, 업데이트하는 데 사용됩니다.</span>
-<span lang="zh-cn">我们的第一个项目是在2024年在欧盟推出iPhone应用商店，以分发这些社区主导的应用程序，从一系列通用实用工具和应用程序开始。 "App Fair" 市场应用程序将用于发现、审查、安装和更新我们目录中的应用。</span>
-<span lang="zh-tw">我們的第一個項目是在2024年在歐盟推出iPhone應用商店，以分發這些社區主導的應用程式，從一系列通用實用工具和應用程式開始。 "App Fair" 市場應用程式將用於發現、審查、安裝和更新我們目錄中的應用程式。</span>
-<span lang="ar">مشروعنا الأول هو إطلاق متجر تطبيقات iPhone في الاتحاد الأوروبي في عام 2024 لتوزيع تطبيقات المجتمع المؤسسة لها، والبدء بمجموعة من الأدوات والتطبيقات العامة. سيتم استخدام تطبيق "App Fair" للسوق لاكتشاف ومراجعة وتثبيت وتحديث التطبيقات في دليلنا.</span>
+<span>Our first project is launching an App Fair app marketplace for the iPhone and iPad in the European Union in 2024 to distribute these community-led applications. The App Fair marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 </p>
+
+
+<h2 style="text-align: center;">How You Can Help</h2>
 
 <p>
 <span>
@@ -122,7 +114,7 @@ In order to launch the App Fair marketplace for iOS, there is a prerequisite tha
 
 <p>
 <span>
-Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word.
+Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word. You may also consider making a tax-deductible <a href="/donate">donation</a> towards the creation and maintenance of the project.
 </span>
 </p>
 
