@@ -122,7 +122,7 @@ In order to launch the App Fair marketplace for iOS, there is a prerequisite tha
 
 <p>
 <span>
-Every install help move us towards being able to launch the first free app marketplace for iOS, so please help spread the word.
+Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word.
 </span>
 </p>
 
