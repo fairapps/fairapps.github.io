@@ -94,7 +94,7 @@ layout: default
 </p>
 
 <p>
-<span lang="en">Our first project is launching an iPhone app store in the European Union in 2024 to distribute these community-led applications, starting with a collection of general-interest utilities and applications. The "App Fair" marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
+<span lang="en">Our first project is launching an iPhone app store in the European Union in 2024 to distribute these community-led applications, starting with a collection of general-interest utilities and applications. The <i>App Fair</i> marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 <span lang="fr">Notre premier projet est de lancer un magasin d'applications iPhone dans l'Union Européenne en 2024 pour distribuer ces applications dirigées par la communauté, commençant par une collection d'utilitaires et d'applications d'intérêt général. L'application de marché "App Fair" sera utilisée pour découvrir, examiner, installer et mettre à jour les applications de notre catalogue.</span>
 <span lang="es">Nuestro primer proyecto es lanzar una tienda de aplicaciones para iPhone en la Unión Europea en 2024 para distribuir estas aplicaciones lideradas por la comunidad, comenzando con una colección de utilidades y aplicaciones de interés general. La aplicación de mercado "App Fair" se utilizará para descubrir, revisar, instalar y actualizar las aplicaciones de nuestro catálogo.</span>
 <span lang="pt">Nosso primeiro projeto é lançar uma loja de aplicativos para iPhone na União Europeia em 2024 para distribuir estes aplicativos liderados pela comunidade, começando com uma coleção de utilitários e aplicativos de interesse geral. O aplicativo de mercado "App Fair" será usado para descobrir, revisar, instalar e atualizar os aplicativos de nosso catálogo.</span>
@@ -106,11 +106,29 @@ layout: default
 <span lang="zh-cn">我们的第一个项目是在2024年在欧盟推出iPhone应用商店，以分发这些社区主导的应用程序，从一系列通用实用工具和应用程序开始。 "App Fair" 市场应用程序将用于发现、审查、安装和更新我们目录中的应用。</span>
 <span lang="zh-tw">我們的第一個項目是在2024年在歐盟推出iPhone應用商店，以分發這些社區主導的應用程式，從一系列通用實用工具和應用程式開始。 "App Fair" 市場應用程式將用於發現、審查、安裝和更新我們目錄中的應用程式。</span>
 <span lang="ar">مشروعنا الأول هو إطلاق متجر تطبيقات iPhone في الاتحاد الأوروبي في عام 2024 لتوزيع تطبيقات المجتمع المؤسسة لها، والبدء بمجموعة من الأدوات والتطبيقات العامة. سيتم استخدام تطبيق "App Fair" للسوق لاكتشاف ومراجعة وتثبيت وتحديث التطبيقات في دليلنا.</span>
-
-
-
 </p>
 
+<p>
+<span>
+In order to launch the App Fair marketplace for iOS, there is a prerequisite that we first have an app on the Apple App Store that has achieved <strong>1 million downloads</strong> in the European Union. You can help by installing our free and open-source <a href="https://apps.apple.com/lt/app/net-skip/id1640618584">Net Skip</a> web browser on your iPhone or iPad.
+</span>
+</p>
+
+
+<p style="vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
+<a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/21/19/ca211916-99b2-5307-b6b2-56536495dc13/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-85-220.png/540x540bb.jpg" alt="Net Skip" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"></a>
+</p>
+
+
+<p>
+<span>
+Every install help move us towards being able to launch the first free app marketplace for iOS, so please help spread the word.
+</span>
+</p>
+
+ 
+ 
+<!-- 
 <span lang="en">Contact us at <a href="mailto:info@appfair.org">info@appfair.org</a> for information on programs, volunteer opportunities, and upcoming events.</span>
 <span lang="fr">Contactez-nous à <a href="mailto:info@appfair.org">info@appfair.org</a> pour obtenir des informations sur les programmes, les opportunités de bénévolat et les événements à venir.</span>
 <span lang="es">Contáctenos a <a href="mailto:info@appfair.org">info@appfair.org</a> para obtener información sobre programas, oportunidades de voluntariado y eventos próximos.</span>
@@ -122,4 +140,4 @@ layout: default
 <span lang="ko">프로그램, 봉사 기회 및 다가오는 이벤트에 대한 정보를 얻으려면 <a href="mailto:info@appfair.org">info@appfair.org</a>로 문의하십시오.</span>
 <span lang="zh-cn">有关项目、志愿者机会和即将到来的活动的信息，请通过<a href="mailto:info@appfair.org">info@appfair.org</a>联系我们。</span>
 <span lang="zh-tw">有關項目、志願者機會和即將到來的活動的資訊，請通過<a href="mailto:info@appfair.org">info@appfair.org</a>聯繫我們。</span>
-<span lang="ar">للحصول على معلومات حول البرامج وفرص التطوع والأحداث القادمة، يرجى الاتصال بنا على <a href="mailto:info@appfair.org">info@appfair.org</a>.</span>
+<span lang="ar">للحصول على معلومات حول البرامج وفرص التطوع والأحداث القادمة، يرجى الاتصال بنا على <a href="mailto:info@appfair.org">info@appfair.org</a>.</span> -->
