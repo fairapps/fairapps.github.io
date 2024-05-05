@@ -42,7 +42,7 @@ layout: default
 </p>
 
 <p>
-<span lang="en">The App Fair Project is a non-profit charitable organization dedicated to creation of mobile software applications for the public good. The project was founded in 2022 as a worldwide nexus for free apps to be built, distributed, and maintained.</span>
+<span lang="en">The App Fair Project is a non-profit charitable organization dedicated to the creation of mobile software applications for the public good. The project was founded in 2022 as a worldwide nexus for free apps to be built, distributed, and maintained.</span>
 <span lang="fr">Le projet App Fair est une organisation caritative à but non lucratif dédiée à la création d'applications logicielles mobiles pour le bien public. Le projet a été fondé en 2022 en tant que nœud central mondial pour la construction, la distribution et la maintenance d'applications gratuites.</span>
 <span lang="es">El Proyecto App Fair es una organización benéfica sin fines de lucro dedicada a la creación de aplicaciones de software móvil para el bien público. El proyecto fue fundado en 2022 como un nexo mundial para que las aplicaciones gratuitas sean construidas, distribuidas y mantenidas.</span>
 <span lang="pt">O Projeto App Fair é uma organização de caridade sem fins lucrativos dedicada à criação de aplicativos de software móvel para o bem público. O projeto foi fundado em 2022 como um nexo mundial para que aplicativos gratuitos sejam construídos, distribuídos e mantidos.</span>
@@ -75,11 +75,11 @@ layout: default
  
 <!--
 <p>
-<span lang="en">All too often, the apps we use on a daily basis are mis-labeled as being "free", when they are in fact anything but free. Aside from deceptive in-app purchase schemes and subscriptions, there are a plethora of mechanisms that are routinely used to extract profit from unwitting consumers. The most common of these include embedded surveillance.</span>
+<span lang="en">All too often, the apps we use on a daily basis are mis-labeled as being "free", when they are in fact anything but free. Aside from deceptive in-app purchase schemes and subscriptions, there are a plethora of mechanisms that are routinely used to extract profit from unwitting consumers. The most common of these include covert and non-consensual tracking and surveillance, which is monetized through data brokers. App Fair apps contain none of this.</span>
 </p> -->
 
 <p>
-<span lang="en">App Fair apps will cost nothing, and contain no built-in ad-tech or non-consensual tracking technologies. They do not attempt to monetize the attention of the user in any way. They are created from free and open-source software and are funded solely by donations and grants.</span>
+<span lang="en">App Fair apps cost nothing and contain no built-in ad-tech or non-consensual tracking technologies. They do not attempt to monetize the attention of the user in any way. They are created from free and open-source software and are funded solely by donations and grants.</span>
 <span lang="fr">Les applications App Fair ne contiennent aucune technologie publicitaire intégrée ou de suivi non consensuel. Elles sont créées à partir de logiciels libres et open source et sont financées uniquement par des dons et des subventions.</span>
 <span lang="es">Las aplicaciones de App Fair no contienen tecnología publicitaria integrada ni tecnologías de seguimiento no consensuadas. Se crean a partir de software libre y de código abierto y están financiadas únicamente por donaciones y subvenciones.</span>
 <span lang="pt">Os aplicativos do App Fair não contêm tecnologia publicitária integrada ou tecnologias de rastreamento não consensuais. Eles são criados a partir de software livre e de código aberto e são financiados exclusivamente por doações e subsídios.</span>
@@ -94,7 +94,7 @@ layout: default
 </p>
 
 <p>
-<span>Our first project is launching an App Fair app marketplace for the iPhone and iPad in the European Union in 2024 to distribute these community-led applications. The App Fair marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
+<span>Our first project is launching the App Fair app marketplace for the iPhone and iPad in the European Union in 2024 to distribute these community-led applications. The App Fair marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 </p>
 
 
@@ -102,15 +102,22 @@ layout: default
 
 <p>
 <span>
-In order to launch the App Fair marketplace for iOS, there is a prerequisite that we first have an app on the Apple App Store that has achieved <strong>1 million downloads</strong> in the European Union. You can help by installing our free and open-source <a href="https://apps.apple.com/lt/app/net-skip/id1640618584">Net Skip</a> web browser on your iPhone or iPad.
+In order to launch the App Fair marketplace for iOS, Apple is imposing the requirement that the project either raises <strong>one million euros</strong>, or else surpasses <strong>one million downloads</strong> of an app through the Apple App Store. You can help us achieve this goal by installing our free and open-source <a href="https://apps.apple.com/lt/app/net-skip/id1640618584">Net Skip</a> web browser on your iPhone or iPad.
 </span>
 </p>
 
 
 <p style="vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
-<a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/21/19/ca211916-99b2-5307-b6b2-56536495dc13/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-85-220.png/540x540bb.jpg" alt="Net Skip" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"></a>
+<a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
+  <img src="/img/net-skip-icon.jpg" alt="Net Skip" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;">
+</a>
 </p>
 
+<p style="vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
+<a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" styleX="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
+  <img alt="Download on App Store Button" src="/img/download-app-store.png" style="width: 170px; display: inline-block; vertical-align: middle;" />
+</a>
+</p>
 
 <p>
 <span>
