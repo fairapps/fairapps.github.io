@@ -94,7 +94,7 @@ layout: default
 </p>
 
 <p>
-<span>Our first project is launching the App Fair app marketplace for the iPhone and iPad in the European Union in 2024 to distribute these community-led applications. The App Fair marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
+<span>Our first project is launching the App Fair app marketplace for the iPhone and iPad in the European Union in 2025 to distribute these community-led applications. The App Fair marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 </p>
 
 
