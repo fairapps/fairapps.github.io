@@ -121,8 +121,8 @@ In order to launch the App Fair marketplace for iOS, Apple is imposing the requi
 
 <p>
 <span>
-Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word.
-<!-- You may also consider making a tax-deductible <a href="/donate">donation</a> towards the creation and maintenance of the project. -->
+<!-- Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word. -->
+Please consider making a tax-deductible <a href="/donate">donation</a> towards the creation and maintenance of the project.
 </span>
 </p>
 

@@ -11,7 +11,7 @@ description: >-
 header_pages:
   - index.md
   - blog/index.md
-  # - donate/index.md
+  - donate/index.md
   # - marketplace/index.md
   
 languages:
