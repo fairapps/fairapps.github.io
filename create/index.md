@@ -4,11 +4,10 @@ title: Creator Guide
 layout: default
 ---
 
-
 # App Fair Creator Guide
 {:.no_toc}
 
-<img alt="App Fair Project Diagram" src="/assets/images/appfair-project.svg" />    
+<img style="width: 100%;" alt="App Fair Project Diagram" src="/assets/images/appfair-project.svg" />    
 
 * Table of contents
 {:toc}
