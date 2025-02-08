@@ -7,6 +7,9 @@ layout: default
 # App Fair Creator Guide
 {:.no_toc}
 
+## A Universal App Marketplace
+{:.no_toc style="text-align: center;"}
+
 <img style="width: 100%;" alt="App Fair Project Diagram" src="/assets/images/appfair-project.svg" />    
 
 * Table of contents
