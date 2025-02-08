@@ -9,7 +9,13 @@ description: >-
   The App Fair Project provides a free and open-source marketplace for mobile apps
 
 header_pages:
+  #- title: "Home"
+    #href: "/"
+  #- title: "Create"
+    #href: "/create/"
+
   - index.md
+  - create/index.md
   - blog/index.md
   - donate/index.md
   # - marketplace/index.md

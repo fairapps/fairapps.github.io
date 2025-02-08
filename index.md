@@ -106,6 +106,14 @@ In order to launch the App Fair marketplace for iOS, Apple is imposing the requi
 </span>
 </p>
 
+<p>
+<span>
+<!-- Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word. -->
+Please also consider making a tax-deductible <a href="/donate">donation</a> towards the creation and maintenance of the project.
+
+</span>
+</p>
+
 
 <p style="vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
@@ -118,14 +126,6 @@ In order to launch the App Fair marketplace for iOS, Apple is imposing the requi
   <img alt="Download on App Store Button" src="/img/download-app-store.png" style="width: 170px; display: inline-block; vertical-align: middle;" />
 </a>
 </p>
-
-<p>
-<span>
-<!-- Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word. -->
-Please consider making a tax-deductible <a href="/donate">donation</a> towards the creation and maintenance of the project.
-</span>
-</p>
-
  
  
 <!-- 

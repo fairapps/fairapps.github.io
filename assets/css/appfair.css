@@ -1,18 +1,119 @@
-:root { 
-  color-scheme: light; 
-  /* color-scheme: light dark;  */
-  /* color-scheme: light dark;  */
-  /* accent-color: green; */
-  /* background-color: whitesmoke;  */
-
+@charset "UTF-8";
+:root {
+  --gray-background-color: rgb(249, 249, 249);
+  --announcement-bar-color: rgb(0, 122, 255);
+  --text-color: black;
+  --text-background-color: white;
+  --label-color: rgba(0, 0, 0, 0.85);
+  --secondary-label-color: rgba(0, 0, 0, 0.5);
+  --tertiary-label-color: rgba(0, 0, 0, 0.25);
+  --quaternary-label-color: rgba(0, 0, 0, 0.1);
+  --quinary-label-color: rgba(0, 0, 0 , 0.05);
+  --grid-color: rgb(204, 204, 204);
+  --separator-color: rgb(230, 230, 230);
+  --alternating-content-background-color: rgb(245, 245, 245);
+  --link-color: rgb(0, 104, 218);
+  --control-accent-color: rgb(0, 122, 255);
+  --light-color-opacity: 0.06;
+  --medium-color-opacity: 0.14;
+  --system-red-color: rgb(235, 77, 61);
+  --system-red-color-medium: rgba(235, 77, 61, var(--medium-color-opacity));
+  --system-red-color-light: rgba(235, 77, 61, var(--light-color-opacity));
+  --system-green-color: rgb(100, 202, 86);
+  --system-green-color-medium: rgb(100, 202, 86, var(--medium-color-opacity));
+  --system-green-color-light: rgb(100, 202, 86, var(--light-color-opacity));
+  --system-blue-color: rgb(0, 122, 255);
+  --system-blue-color-medium: rgb(0, 122, 255, var(--medium-color-opacity));
+  --system-blue-color-light: rgb(0, 122, 255, var(--light-color-opacity));
+  --system-orange-color: rgb(240, 154, 56);
+  --system-orange-color-medium: rgb(240, 154, 56, var(--medium-color-opacity));
+  --system-orange-color-light: rgb(240, 154, 56, var(--light-color-opacity));
+  --system-yellow-color: rgb(247, 206, 70);
+  --system-yellow-color-medium: rgb(247, 206, 70, var(--medium-color-opacity));
+  --system-yellow-color-light: rgb(247, 206, 70, var(--light-color-opacity));
+  --system-brown-color: rgb(157, 134, 98);
+  --system-brown-color-medium: rgb(157, 134, 98, var(--medium-color-opacity));
+  --system-brown-color-light: rgb(157, 134, 98, var(--light-color-opacity));
+  --system-pink-color: rgb(235, 68, 90);
+  --system-pink-color-medium: rgb(235, 68, 90, var(--medium-color-opacity));
+  --system-pink-color-light: rgb(235, 68, 90, var(--light-color-opacity));
+  --system-purple-color: rgb(163, 87, 215);
+  --system-purple-color-medium: rgb(163, 87, 215, var(--medium-color-opacity));
+  --system-purple-color-light: rgb(163, 87, 215, var(--light-color-opacity));
+  --system-teal-color: rgb(110, 171, 193);
+  --system-teal-color-medium: rgb(110, 171, 193, var(--medium-color-opacity));
+  --system-teal-color-light: rgb(110, 171, 193, var(--light-color-opacity));
+  --system-indigo-color: rgb(87, 86, 207);
+  --system-indigo-color-medium: rgb(87, 86, 207, var(--medium-color-opacity));
+  --system-indigo-color-light: rgb(87, 86, 207, var(--light-color-opacity));
+  --system-mint-color: rgb(90, 196, 189);
+  --system-mint-color-medium: rgb(90, 196, 189, var(--medium-color-opacity));
+  --system-mint-color-light: rgb(90, 196, 189, var(--light-color-opacity));
+  --system-cyan-color: rgb(112, 188, 235);
+  --system-cyan-color-medium: rgb(112, 188, 235, var(--medium-color-opacity));
+  --system-cyan-color-light: rgb(112, 188, 235, var(--light-color-opacity));
+  --system-gray-color: rgb(142, 142, 147);
+  --system-gray-color-medium: rgb(142, 142, 147, var(--medium-color-opacity));
+  --system-gray-color-light: rgb(142, 142, 147, var(--light-color-opacity));
 }
-/* :root { color-scheme: light; } */
-
-/* @media (prefers-color-scheme: dark-disabled) { 
-  :root { 
-    color: white;
+@media (prefers-color-scheme: dark-DISABLED) {
+  :root {
+    --gray-background-color: rgb(42, 42, 42);
+    --announcement-bar-color: rgb(58, 130, 247);
+    --text-color: white;
+    --text-background-color: black;
+    --label-color: rgba(255, 255, 255, 0.85);
+    --secondary-label-color: rgba(255, 255, 255, 0.5);
+    --tertiary-label-color: rgba(255, 255, 255, 0.25);
+    --quaternary-label-color: rgba(255, 255, 255, 0.1);
+    --quinary-label-color: rgba(255, 255, 255 , 0.05);
+    --grid-color: rgb(88, 88, 88);
+    --separator-color: rgb(51, 52, 55);
+    --alternating-content-background-color: rgb(44, 44, 44);
+    --link-color: rgb(65, 156, 255);
+    --light-color-opacity: 0.10;
+    --medium-color-opacity: 0.20;
+    --system-red-color: rgb(235, 85, 69);
+    --system-red-color-medium: rgb(235, 85, 69, var(--medium-color-opacity));
+    --system-red-color-light: rgb(235, 85, 69, var(--light-color-opacity));
+    --system-green-color: rgb(106, 212, 95);
+    --system-green-color-medium: rgb(106, 212, 95, var(--medium-color-opacity));
+    --system-green-color-light: rgb(106, 212, 95, var(--light-color-opacity));
+    --system-blue-color: rgb(58, 130, 247);
+    --system-blue-color-medium: rgb(58, 130, 247, var(--medium-color-opacity));
+    --system-blue-color-light: rgb(58, 130, 247, var(--light-color-opacity));
+    --system-orange-color: rgb(242, 164, 60);
+    --system-orange-color-medium: rgb(242, 164, 60, var(--medium-color-opacity));
+    --system-orange-color-light: rgb(242, 164, 60, var(--light-color-opacity));
+    --system-yellow-color: rgb(248, 216, 74);
+    --system-yellow-color-medium: rgb(248, 216, 74, var(--medium-color-opacity));
+    --system-yellow-color-light: rgb(248, 216, 74, var(--light-color-opacity));
+    --system-brown-color: rgb(167, 144, 108);
+    --system-brown-color-medium: rgb(167, 144, 108, var(--medium-color-opacity));
+    --system-brown-color-light: rgb(167, 144, 108, var(--light-color-opacity));
+    --system-pink-color: rgb(235, 75, 99);
+    --system-pink-color-medium: rgb(235, 75, 99, var(--medium-color-opacity));
+    --system-pink-color-light: rgb(235, 75, 99, var(--light-color-opacity));
+    --system-purple-color: rgb(179, 96, 234);
+    --system-purple-color-medium: rgb(179, 96, 234, var(--medium-color-opacity));
+    --system-purple-color-light: rgb(179, 96, 234, var(--light-color-opacity));
+    --system-teal-color: rgb(128, 194, 217);
+    --system-teal-color-medium: rgb(128, 194, 217, var(--medium-color-opacity));
+    --system-teal-color-light: rgb(128, 194, 217, var(--light-color-opacity));
+    --system-indigo-color: rgb(93, 92, 222);
+    --system-indigo-color-medium: rgb(93, 92, 222, var(--medium-color-opacity));
+    --system-indigo-color-light: rgb(93, 92, 222, var(--light-color-opacity));
+    --system-mint-color: rgb(134, 227, 225);
+    --system-mint-color-medium: rgb(134, 227, 225, var(--medium-color-opacity));
+    --system-mint-color-light: rgb(134, 227, 225, var(--light-color-opacity));
+    --system-cyan-color: rgb(119, 197, 241);
+    --system-cyan-color-medium: rgb(119, 197, 241, var(--medium-color-opacity));
+    --system-cyan-color-light: rgb(119, 197, 241, var(--light-color-opacity));
+    --system-gray-color: rgb(152, 152, 157);
+    --system-gray-color-medium: rgb(152, 152, 157, var(--medium-color-opacity));
+    --system-gray-color-light: rgb(152, 152, 157, var(--light-color-opacity));
   }
-} */
+}
 
 html { 
   /* background-color: #3498db77;  */
@@ -698,11 +799,47 @@ pre {
   background-color: transparent;
 }
 
-
-
 /* Tutorials */
 .tutorial img {
   max-width: 600px;
+}
+
+
+.callout {
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 10px;
+  border: 1.0px solid #ccc;
+  background-color: var(--system-cyan-color-light);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.callout.warning {
+  border-color: #f39c12;
+  /* background-color: #fdf6e3; */
+  background-color: var(--system-yellow-color-light);
+  /* color: #8a6d3b; */
+}
+
+.callout.success {
+  border-color: #2ecc71;
+  /* background-color: #dff0d8; */
+  background-color: var(--system-green-color-light);
+  /* color: #3c763d; */
+}
+
+.callout.info {
+  border-color: #3498db;
+  /* background-color: #d9edf7; */
+  background-color: var(--system-blue-color-light);
+  /* color: #31708f; */
+}
+
+.callout.error {
+  border-color: #e74c3c;
+  /* background-color: #f2dede; */
+  background-color: var(--system-red-color-light);
+  /* color: #a94442; */
 }
 
 
