@@ -33,19 +33,19 @@ Creating an app for the App Fair is an opportunity to get your creation in the h
 #### Who can create an app for the App Fair?
 {: #who-app-fair}
 
-Anyone with the ability and desire to build an app can be an App Fair Creator. You do not need any paid developer account with Apple or Google, only a free GitHub account. If you have a macOS development machine and the ability (or desire) to build an app in SwiftUI, you can create an app and – through the App Fair build process – distribute your creation to the world.
+Anyone with the ability and desire to build an app can be an App Fair Creator. You do not need any paid developer account with Apple or Google, only a free GitHub account. If you have a macOS development machine and the ability (or desire) to build an app in SwiftUI, you can create an app and – through the App Fair process – distribute your creation to the world.
 
 #### What sorts of apps can I build for the App Fair?
 {: #what-app-fair}
 
-The App Fair is looking for _generally useful_ applications. This means that your app should be interesting and useful to a wide swath of humanity, irrespective of language or location. They should also be timeless: apps should not have any specific cutoff for their usefulness.
+The App Fair is looking for _generally useful_ applications. This means that your app should be interesting and useful to a wide swath of humanity, irrespective of language or location. They should also be timeless: apps should not have any specific cutoff for their utility.
 
-A central requirement of the App Fair is that they do not seek to monetize the attention of the user. This means that they can contains no native advertising or tracking SDKs. They must also be _transparent_, and so they must be built from 100% free and open source software. This is the guarantee that users (and external auditors) will have that they know exactly what went into the creation of the app.
+A central tenant of the App Fair catalog is that apps do not seek to monetize the attention of the user. This means that they can contains no native advertising or tracking SDKs. They must also be _transparent_, and so they must be built from 100% free and open source software. This is the guarantee that users (and external auditors) will have that they know exactly what went into the creation of the app.
 
 ### About distribution channels
 {: #app-fair-channels}
 
-The App Fair aims to distribute apps *worldwide*, so all of the mobile-device-using population (90% of the adult population, by some estimates) can benefit from your creation.
+The App Fair aims to distribute apps *worldwide*, so all of the mobile-device-using population (90% of the adult population, by most estimates) can benefit from your creation.
 
 #### The App Fair
 {: #app-fair-channel-app-fair}
@@ -78,7 +78,7 @@ The Google Play Store (GPS) is the primary 1st-party app store for most Android 
 ### Before you start
 {: #before-starting}
 
-Before you dive into developing your app, you should first check whether the app idea already exists as an App Fair project. The App Fair generally discourages apps with identical intent. Unlike commercial app catalogs that aim to build quantity, the App Fair aims to feature a few best-in-class applications in their categories. You can browse the list of app projects at [appfair/repositories](https://github.com/appfair/repositories) to see if an app already exists that closely resembles your idea for a contribution. If so, you may with to instead contribute toward the improvement of that app project rather than duplicating effort.
+Before you dive into developing your app, you should first check whether the app idea already exists as an App Fair project. The App Fair generally discourages apps with identical intent. Unlike commercial app catalogs that aim to build quantity, the App Fair aims to feature a few best-in-class applications in their categories. You can browse the list of app projects at [appfair/repositories](https://github.com/orgs/appfair/repositories) to see if an app already exists that closely resembles your idea for a contribution. If so, you may with to instead contribute toward the improvement of that app project rather than duplicating effort.
 
 ### System Requirements
 {: #sysreq}
@@ -96,20 +96,45 @@ It can be difficult to conclusively verify ahead of time that a name is availabl
 ### Make a proposal
 {: #proposal}
 
+When you have an idea for an app, you may want to propose it on the [App Fair discussion forums](https://github.com/orgs/appfair/discussions). This will give the community the opportunity to provide feedback on the idea, as well as make an assessment about whether the app will be suitable for distribution through the Ap Fair.
+
 Creating a proposal is optional, but it is a good way to get community feedback on your idea before you invest effort in building something that might not fit well with the App Fair's mission or needs.
 {: class="callout warning"}
-
-http://github.com/appfair/discussions
-
 
 ### Creating an organization and repository
 {: #new-org-repo}
 
-#### Enable issues and discussions
-{: #activate-repo-features}
+Every App Fair app must be represented by a unique GitHub organization. An organization can be created for free by going to [https://github.com/account/organizations/new?plan=free](https://github.com/account/organizations/new?plan=free). It can be created an managed by an individual, or many people can be invited to participate in the app's development.
+
+The organization's name should be the application ID, which will typically be the app's name. For example, for the "App Name" app, and organization named "App-Name" should be created.
+
+Once the organization is made, the app's repository should be created by going to [https://github.com/new](https://github.com/new). The repository name must exactly match the organization name (e.g., "https://github.com/App-Name/App-Name"). The repository should be public and empty (no README, .gitignore, or license files). The contents will be added in the next steps.
 
 ### Initializing the app
 {: #init-app}
+
+App Fair apps are developed using [Skip](https://skip.tools), which is the technology that enables the creation of a dual-platform iOS+Android app from a single Swift codebase. Follow the [Getting Started](https://skip.tools/docs/gettingstarted/) instructions for setting up Skip on your machine, except then it comes to the creation of the app, the following command should be used instead (substituting "App-Name" with the name of the repository you just created):
+
+```
+skip init --open-xcode --appfair App-Name
+```
+
+This will initialize a new Skip application with the correct parameters for the App Fair. You should then add the newly created project to the repository and make an initial commit:
+
+```
+cd App-Name
+git init
+git remote add origin https://github.com/App-Name/App-Name.git
+git branch -M main
+git add .
+git commit -m "initial commit"
+git push -u origin main
+```
+
+Your repository is now created and initialized with a new, valid (albeit vanilla and uninteresting) App Fair app.
+
+In addition to creating the repository, the app is also set up with a GitHub continuous integration workflow that will build your app every time you push a commit or create a Pull Request. This action is a critical part of the App Fair process, and should not be disabled.
+{: class="callout warning"}
 
 
 ## Developing
@@ -191,7 +216,7 @@ A.F.F.R.
 ### What software licenses can be used with the App Fair
 {: #faq-license}
 
-The top-level app project must be made available under the GNU General Public License (GPL) version 3 in order to qualify to be distributed through the App Fair. The app can have dependencies on libraries that are available under any of the GPL-compatible OSI-approved licenses.
+The top-level app project must be made available under the GNU General Public License (GPL) version 3 in order to qualify to be distributed through the App Fair. The app can have dependencies on libraries that are available under any of the GPL-compatible OSI-approved licenses, such as the Apache, BSD, and MIT licenses.
 
 ### Why Skip instead of Flutter/React Native/Xamarin/MAUI/etc?
 {: #faq-skip-xp}
