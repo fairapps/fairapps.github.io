@@ -1,6 +1,6 @@
 ---
 name: Donate
-title: Donate
+title: Support Us
 layout: default
 ---
 
@@ -8,7 +8,14 @@ layout: default
 
 The App Fair is built for you. We pursue our mission with your support - to create a universal catalog of digital public goods in the form of free and open source smartphone applications.
 
-Your donations help pay for the development and maintenance of the App Fair Project, including the servers and bandwidth required to make the app catalog available to billions of people all over the world.
+Your support helps pay for the development and maintenance of the App Fair Project, including the servers and bandwidth required to make the app catalog available to billions of people all over the world.
+
+
+<a href="https://www.patreon.com/appfair" class="donate-button" style="margin-left: auto; margin-right: auto;">
+    Support the App Fair Project on Patreon
+</a>
+
+You can also make a one-time direct donation using a variety of payment options:
 
 <div class="donate-grid-container" style="padding: 1em;">
 

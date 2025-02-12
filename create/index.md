@@ -20,6 +20,9 @@ layout: default
 
 Welcome, Developer! This guide will provide an overview of the App Fair development, release, and maintenance process. If you are already a mobile app developer, some of these sections will be review – but we encourage to read thoroughly regardless. The App Fair is a unique method of app development, and even if you have already shipped apps for the iPhone or Android (or both), many of the concepts presented here will be novel.
 
+The document is currently a **draft** of the creator guide. Many sections are still works in progress. Please post questions and feedback on the [App Fair discussion forums](https://github.com/orgs/appfair/discussions).
+{: class="callout error"}
+
 ### About the App Fair Project
 {: #about-app-fair}
 
@@ -155,60 +158,96 @@ Apps should work in a variety of network conditions: fast wi-fi as well as slow 
 #### Be fast to launch and efficient with memory and battery
 {: #guideline-fast}
 
+_writing in progress…_
+
 #### Provide in-app guidance
 {: #guideline-guidance}
+
+_writing in progress…_
 
 #### Facilitate easy translation
 {: #guideline-translations}
 
+_writing in progress…_
+
 ### The app development cycle
 {: #appdev}
+
+_writing in progress…_
 
 ## Releasing
 {: #releasing}
 
+_writing in progress…_
+
 ### About the App Fair release process
 {: #app-fair-releases}
 
-When it is time to release your app and submit it to the various distribution channels, 
+_writing in progress…_
+
+<!-- When it is time to release your app and submit it to the various distribution channels,  -->
 
 ### Managing metadata
 {: #metadata}
 
+_writing in progress…_
+
 #### About Fastlane
 {: #metadata-fastlane}
+
+_writing in progress…_
 
 #### Android metadata
 {: #metadata-fastlane-android}
 
+_writing in progress…_
+
 ##### Android screenshots
 {: #metadata-fastlane-android-screenshots}
+
+_writing in progress…_
 
 #### iOS metadata
 {: #metadata-fastlane-ios}
 
+_writing in progress…_
+
 ##### iOS screenshots
 {: #metadata-fastlane-ios-screenshots}
+
+_writing in progress…_
 
 ### Creating a tag
 {: #release-tag}
 
+_writing in progress…_
+
 ### Fork requests
 {: #fork-request}
 
-A.F.F.R.
+_writing in progress…_
+
+<!-- A.F.F.R. -->
 
 ### Handling feedback
 {: #handling-feedback}
 
+_writing in progress…_
+
 ## Maintenance
 {: #app-maintenance}
+
+_writing in progress…_
 
 ### Releasing updates
 {: #app-updates}
 
+_writing in progress…_
+
 ### Managing localization and translations
 {: #app-localization}
+
+_writing in progress…_
 
 
 ## FAQ
@@ -277,6 +316,7 @@ You can post a Call for Maintenance (CFM) on the App Fair discussion forums, and
 ### I am not a developer, but I would like to translate an app into another language. How can I help?
 {: #faq-translators}
 
+_writing in progress…_
 
 ### I am not a developer. How else can I help the App Fair Project?
 {: #faq-other-contributions}
