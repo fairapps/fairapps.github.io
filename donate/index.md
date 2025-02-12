@@ -4,7 +4,7 @@ title: Support Us
 layout: default
 ---
 
-# Donate to the App Fair Project
+# Support the App Fair Project
 
 The App Fair is built for you. We pursue our mission with your support - to create a universal catalog of digital public goods in the form of free and open source smartphone applications.
 
