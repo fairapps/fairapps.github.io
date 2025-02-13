@@ -12,8 +12,8 @@ Here is the video and a transcript of the talk. I was overwhelmed by the support
 
 <div class="video">
   <video controls="controls" width="100%">
-    <source src="https://video.fosdem.org/2025/h1301/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma.av1.webm#t=12" type="video/webm; codecs=&quot;av01.0.08M.08.0.110.01.01.01.0&quot;">
-    <source src="https://video.fosdem.org/2025/h1301/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma.mp4#t=12" type="video/mp4">
+    <source src="https://video.fosdem.org/2025/h1301/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma.av1.webm" type="video/webm; codecs=&quot;av01.0.08M.08.0.110.01.01.01.0&quot;">
+    <source src="https://video.fosdem.org/2025/h1301/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma.mp4" type="video/mp4">
   </video>
 </div>
 
