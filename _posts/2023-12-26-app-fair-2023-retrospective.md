@@ -3,6 +3,7 @@ title:  "App Fair Retrospective, 2023"
 date:   2023-12-25 12:00:00 -0400
 categories: news update
 layout: post
+author: "Marc Prud'hommeaux"
 ---
 
 2023 was the first full year of the App Fair Project's existence. This post looks back on the year, and towards 2024.

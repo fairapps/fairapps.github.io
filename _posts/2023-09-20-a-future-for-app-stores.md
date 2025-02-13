@@ -3,6 +3,7 @@ title:  "A Future for iPhone App Stores, Part I"
 date:   2023-09-20 12:00:00 -0400
 categories: welcome news update
 layout: post
+author: "Marc Prud'hommeaux"
 ---
 
 With the announcement of the official Gatekeeper designations under the *Digital Markets Act*, iPhone owners will soon regain the ability to install apps from outside the confines of a single App Store. This capability has been blocked by the platform for years, requiring that owners of an iPhone obtain their software exclusively through a single platform-locked App Store, whose terms and conditions dictate the types of software that can be distributed, and whose rules demand a percentage of all digital commerce transacted through the apps listed therein.

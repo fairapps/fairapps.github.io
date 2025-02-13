@@ -3,6 +3,7 @@ title:  "Apple DMA Compliance Workshop"
 date:   2024-03-18 12:00:00 -0400
 categories: news update dma
 layout: post
+author: "Marc Prud'hommeaux"
 ---
 
 **Update**: The video for the workshop has been made available at [https://webcast.ec.europa.eu/compliance-with-the-dma-apple-2024-03-18](https://webcast.ec.europa.eu/compliance-with-the-dma-apple-2024-03-18). I've updated the blog post with timecodes for each of the questions and answers listed herein.
