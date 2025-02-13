@@ -1,315 +1,38 @@
 ---
-title:  "FOSDEM 2025 Talk: Free App Stores and the Digital Markets Act"
-date:   2025-02-13 00:00:00 -0400
-categories: news blog update talks
+title:  "App Fair Retrospective, 2024"
+date:   2024-12-24 12:00:00 -0400
+categories: news update
 layout: post
 author: "Marc Prud'hommeaux"
 ---
 
-Last weekend I gave a talk at FOSDEM 2025 in Brussels titled: “A Free Software App Store for iOS: the App Fair Project's perspective on the DMA”. The full description can be found at the [FOSDEM overview](https://fosdem.org/2025/schedule/event/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma/).
+As 2024 draws to a close, we reflect on the activities and progress of the App Fair Project.
 
-Here is the video and a transcript of the talk. I was overwhelmed by the support I received at FOSDEM, and would especially like to thank the Free Software Foundation Europe ([https://fsfe.org](https://fsfe.org)) for inviting me and hosting the Legal and Policy track there.
+The year started out with anticipation of Apple's compliance with the *Digital Markets Act*. As we wrote in [last year's retrospective](app-fair-2023-retrospective), the expectation was that iOS would be granted the technological capabilities to create a storefront application that can download, install, and update apps independently of Apple's App Store, similar to how Android has always supported third-party app storefronts. Instead, the actual compliance solution they have offered is merely an extension of the existing app submission workflow, with the additional option of redistributing approved apps through an "alternative app marketplace". This requires that a marketplace be approved and granted a special entitlement to be able to build and maintain an app store.
 
-<div class="video">
-  <video controls="controls" width="100%">
-    <source src="https://video.fosdem.org/2025/h1301/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma.av1.webm#t=12" type="video/webm; codecs=&quot;av01.0.08M.08.0.110.01.01.01.0&quot;">
-    <source src="https://video.fosdem.org/2025/h1301/fosdem-2025-5488-a-free-software-app-store-for-ios-the-app-fair-project-s-perspective-on-the-dma.mp4#t=12" type="video/mp4">
-  </video>
-</div>
+We regard this modification of the existing App Store regime as insufficient for the needs of a truly independent app distribution system. However, it is a first step, and we fully expect that the compliance efforts will evolve and expand in the coming months as EU regulators listen to feedback from the community and form their assessment of compliance (as they have recently done with [interoperability requirements](https://digital-markets-act.ec.europa.eu/commission-seeks-feedback-measures-apple-should-take-ensure-interoperability-under-digital-markets-2024-12-19_en)). So in March we applied for the alternative app marketplace entitlement, which required that we set up a European subsidiary organization. This led to the creation of the App Fair France. Once this was established, we were eventually granted the MarketplaceKit development entitlement, which gives us the ability to start implementing the App Fair client application using the new MarketplaceKit APIs.
 
-## Transcript
+However, to actually be able to distribute applications through the marketplace, we must be granted an additional "distribution entitlement", and we were informed that this requires the posting of a €1,000,000 letter of credit. This sum obviously presents a significant barrier to a project of this nature. We have requested an exemption from this requirement as a non-profit and are hopeful that Apple will eventually grant it.
 
-<div class="content">
-  <div class="content-centered">
-    <div class="transcript-line">So, welcome everyone.</div><br/>
-    <div class="transcript-line">For our next talk we have here Marc Prud'hommeaux, who is, I would say, the expert on app stores on iOS.</div><br/>
-    <div class="transcript-line">So I'm very happy that we have him here with us.</div><br/>
-    <div class="transcript-line">Handing over to you, Marc.</div><br/>
-    <div class="transcript-line">Thank you.</div><br/>
-    <div class="transcript-line">Thank you very much.</div><br/>
-    <div class="transcript-line">Thank you everyone for coming.</div><br/>
-    <div class="transcript-line">This is a talk on free software app stores for iOS and how that works with the DMA and how things are going to be moving forward with that.</div><br/>
-    <div class="transcript-line">My name is Marc Prud'hommeaux.</div><br/>
-    <div class="transcript-line">I'm the founder of the project.</div><br/>
-    <div class="transcript-line">I'm a software developer, really.</div><br/>
-    <div class="transcript-line">I'm a programmer.</div><br/>
-    <div class="transcript-line">I've been programming software for 25 or more years.</div><br/>
-    <div class="transcript-line">I've been developing apps since 2008 for both Android and the iPhone.</div><br/>
-    <div class="transcript-line">And I've developed dozens of apps for large companies, for myself, for independent organizations, for startups, all apps, great and small, really.</div><br/>
-    <div class="transcript-line">So I've gone through the process of both designing and building applications, as well as going through the distribution process, actually how to get that through the stores to the end users.</div><br/>
-    <div class="transcript-line">So I really know sort of all the levels of the process.</div><br/>
-    <div class="transcript-line">I will disclaim, since this is a legal track, I'm not a legal expert.</div><br/>
-    <div class="transcript-line">I'm not a lawyer.</div><br/>
-    <div class="transcript-line">I do not have any formal training in law, either American or European or anywhere else.</div><br/>
-    <div class="transcript-line">I do seem to have evolved into somewhat of a policy expert, not necessarily as an aspiration of mine, but just through osmosis of working with some of the aspects of the Digital Markets Act and advising various organizations around that.</div><br/>
-    <div class="transcript-line">The App Fair Project is an app store for free and open source software.</div><br/>
-    <div class="transcript-line">It aspires to make the software available for the iPhone and for Android.</div><br/>
-    <div class="transcript-line">I really first came up with the idea, it's been gestating ever since I started building apps and encountering how difficult it was to get it into the hands of end users.</div><br/>
-    <div class="transcript-line">But I really started to put together the pieces in 2020, and I founded the organization in 2022.</div><br/>
-    <div class="transcript-line">It is a 501(c)(3) nonprofit based in Massachusetts in the United States.</div><br/>
-    <div class="transcript-line">And we also have a branch based in France, App Fair France.</div><br/>
-    <div class="transcript-line">And the mission is to facilitate the creation and distribution of mobile software applications for the public good for everyone.</div><br/>
-    <div class="transcript-line">And that's really a core component of it.</div><br/>
-    <div class="transcript-line">We want to get applications into everyone's hand.</div><br/>
-    <div class="transcript-line">So in general, the sorts of apps that the App Fair aims to distribute will be digital public goods, will be generally useful things that people in their everyday life can get utility from.</div><br/>
-    <div class="transcript-line">And they don't need to be exotic.</div><br/>
-    <div class="transcript-line">They can be weather apps, they can be transit apps, timetables, they could be apps that help you pay for parking.</div><br/>
-    <div class="transcript-line">But they can be social media apps.</div><br/>
-    <div class="transcript-line">But in general, the apps that a broad swath of humanity will find useful and are sometimes underserved by commercial app application creators.</div><br/>
-    <div class="transcript-line">They're to be 100% free and open source software.</div><br/>
-    <div class="transcript-line">So everything that goes into the application, both the top level user interface, as well as all the components that the application uses, needs to be open source.</div><br/>
-    <div class="transcript-line">And it needs to cost zero money.</div><br/>
-    <div class="transcript-line">There needs to be no fees that the user has to pay or subscriptions.</div><br/>
-    <div class="transcript-line">But it also must not have any end user monetization goal whatsoever.</div><br/>
-    <div class="transcript-line">And this leads into the trustworthiness aspect of the project.</div><br/>
-    <div class="transcript-line">So the apps need to be universally accessible.</div><br/>
-    <div class="transcript-line">So on all devices, iPhones and Android, that essentially makes up 100% of all the mobile devices people use.</div><br/>
-    <div class="transcript-line">All languages, one of the goals of the project is to make it so someone can write an app who only speaks English, but have it translated into 50 languages so that a grandmother in Cambodia can use it.</div><br/>
-    <div class="transcript-line">Everyone is able to get the benefit of this labor.</div><br/>
-    <div class="transcript-line">And all abilities.</div><br/>
-    <div class="transcript-line">Wants to reach out to all levels of accessibility needs that people have, built on top of the accessibility technologies that these mobile devices have.</div><br/>
-    <div class="transcript-line">And then they need to be trustworthy.</div><br/>
-    <div class="transcript-line">So there's not going to be any end user monetization.</div><br/>
-    <div class="transcript-line">There's not going to be any built in advertising.</div><br/>
-    <div class="transcript-line">There's not going to be any tracking surveillance.</div><br/>
-    <div class="transcript-line">And no analytics or telemetry.</div><br/>
-    <div class="transcript-line">Basically, they aim to respect the privacy of the end user and ensure that any time the application is collecting data, it's because they actually need to collect the data for the functionality of the application.</div><br/>
-    <div class="transcript-line">For example, a weather application might ask for your location simply so it can tell you what the forecast is in your area, not so it can then ship off your location information to a third party data broker who then packages it up and sells it to some third party.</div><br/>
-    <div class="transcript-line">And the technical outline of how the project works is fairly straightforward.</div><br/>
-    <div class="transcript-line">If you're familiar with, say, the F-Droid project for Android, for Debian, for how they manage their app software repository, or for Homebrew for Mac OS, the idea is generally that you have application developers.</div><br/>
-    <div class="transcript-line">And these might be individuals.</div><br/>
-    <div class="transcript-line">They could be students.</div><br/>
-    <div class="transcript-line">They could be hobbyists.</div><br/>
-    <div class="transcript-line">They could be organizations, non-profit organizations, governmental organizations, schools, universities, or it could be commercial entities, as long as they have a goal of creating something that is not going to be monetizing the end user.</div><br/>
-    <div class="transcript-line">Anyone can create these things.</div><br/>
-    <div class="transcript-line">They form their own organizations.</div><br/>
-    <div class="transcript-line">They build the apps independently of the project.</div><br/>
-    <div class="transcript-line">And then they submit the source code of the application to the App Fair project itself.</div><br/>
-    <div class="transcript-line">And the App Fair project will be made up of a combination of automated mechanisms where you actually take the source code and you build the application and scan it for bad actions, for malware, things like that, make sure that it's truly all open source.</div><br/>
-    <div class="transcript-line">And then it'll have a human component.</div><br/>
-    <div class="transcript-line">There'll be people who will review the applications.</div><br/>
-    <div class="transcript-line">Is this really the kind of application that we want?</div><br/>
-    <div class="transcript-line">There'll be maintainers who help provide feedback to the app creators when there needs to be changes to be made to work on, say, updated versions of the operating systems.</div><br/>
-    <div class="transcript-line">And translators.</div><br/>
-    <div class="transcript-line">And that's a big component.</div><br/>
-    <div class="transcript-line">The App Fair will contribute people who are experts in localizing the applications, each individual language that we support.</div><br/>
-    <div class="transcript-line">And then the App Fair packages, distributes it.</div><br/>
-    <div class="transcript-line">And then the App Fair client application will then be the sort of front-facing mechanism for both iPhone users and Android users to be able to browse, search, review, download, install, and update applications.</div><br/>
-    <div class="transcript-line">So that's more or less an outline of the process.</div><br/>
-    <div class="transcript-line">One of the advantages of using the App Fair project is that you don't need to sign up for anything.</div><br/>
-    <div class="transcript-line">There's no fees.</div><br/>
-    <div class="transcript-line">There's no registration.</div><br/>
-    <div class="transcript-line">You don't need to accept terms and conditions like you do to distribute an application on, say, the Play Store or the App Store.</div><br/>
-    <div class="transcript-line">You don't need a special account.</div><br/>
-    <div class="transcript-line">The App Fair project aims to provide automated distribution for you so that you don't need to go through the manual process for distributing on multiple app stores.</div><br/>
-    <div class="transcript-line">And we will help with translations, accessibility, compliance.</div><br/>
-    <div class="transcript-line">And the big thing is a trustworthiness seal of approval.</div><br/>
-    <div class="transcript-line">One of the problems with free software, or software that is ostensibly free, zero cost on mobile devices, is that you never really know what the motivation of the person who developed the software.</div><br/>
-    <div class="transcript-line">So there's a lot of distrust for, say, free weather applications, for any free application that might be looking at your contacts books and things like that.</div><br/>
-    <div class="transcript-line">There's a saying that if it's free, then you are the product.</div><br/>
-    <div class="transcript-line">That's not true with free and open source software, but the end users don't know about that.</div><br/>
-    <div class="transcript-line">And through the App Fair project, we'll have this seal of approval, this sort of guarantor of trustworthiness that there's no sinister, nefarious money gathering operations going on behind the scenes.</div><br/>
-    <div class="transcript-line">So how do you build an app store?</div><br/>
-    <div class="transcript-line">An app store is really just an app that installs and manages other applications.</div><br/>
-    <div class="transcript-line">It's not really conceptually all that complicated.</div><br/>
-    <div class="transcript-line">It's an app that installs apps.</div><br/>
-    <div class="transcript-line">How do you do it on Android?</div><br/>
-    <div class="transcript-line">On Android, it's very well established.</div><br/>
-    <div class="transcript-line">There's a lot of different app stores on Android.</div><br/>
-    <div class="transcript-line">I mentioned the F-Droid project.</div><br/>
-    <div class="transcript-line">There's Actoid, there's Obtanium.</div><br/>
-    <div class="transcript-line">A lot of companies have their own app stores.</div><br/>
-    <div class="transcript-line">There's Amazon, Samsung Galaxy Apps, T-Mobile.</div><br/>
-    <div class="transcript-line">And in China, every app store is a third-party app store.</div><br/>
-    <div class="transcript-line">It's a non-first-party Google Play app store, because Google Play services is not available in China.</div><br/>
-    <div class="transcript-line">And essentially, the technology behind it is well established.</div><br/>
-    <div class="transcript-line">It's been around since the beginning of Android.</div><br/>
-    <div class="transcript-line">You set a permission in your application's metadata, install packages.</div><br/>
-    <div class="transcript-line">You sign in and distribute your app store application.</div><br/>
-    <div class="transcript-line">They have a published API that you call that says, "Download this application package, validate it, install it, update it." And you don't really need to go through Google at all to do this.</div><br/>
-    <div class="transcript-line">You can just go home today, you can write an app store app, have it start distributing apps.</div><br/>
-    <div class="transcript-line">It's pretty straightforward.</div><br/>
-    <div class="transcript-line">But the iPhone side is an important side.</div><br/>
-    <div class="transcript-line">This is a talk about iOS, and one of the central components of providing universal access is providing access to all devices.</div><br/>
-    <div class="transcript-line">So that's really an essential part of the App Fair project's mission.</div><br/>
-    <div class="transcript-line">And you basically can't build an app store for the iPhone.</div><br/>
-    <div class="transcript-line">Historically, there was something called Cydia.</div><br/>
-    <div class="transcript-line">It's actually from 2008.</div><br/>
-    <div class="transcript-line">It predates the Apple App Store.</div><br/>
-    <div class="transcript-line">They used the ability to access private APIs if you jailbreak your iPhone, which is essentially hacking into your iPhone, bypassing some of the restrictions that are set in place, and then you can talk to private internal APIs.</div><br/>
-    <div class="transcript-line">They've been using that to build and distribute applications for a very long time.</div><br/>
-    <div class="transcript-line">But it's widely considered to be a fairly extreme measure to jailbreak your iPhone, and Apple is always closing the loopholes that enable people to do it every year.</div><br/>
-    <div class="transcript-line">So it's an ongoing cat and mouse game between the development community that brings these jailbreaks to the surface, and Apple is plugging the holes all the time.</div><br/>
-    <div class="transcript-line">It's not really a sustainable way to get a widespread adoption.</div><br/>
-    <div class="transcript-line">And then there are these tethered workarounds in order to do it.</div><br/>
-    <div class="transcript-line">If you sign up as a developer for the iPhone, then you have the ability to launch and run your own applications.</div><br/>
-    <div class="transcript-line">You need that in order to be able to develop and debug your own apps.</div><br/>
-    <div class="transcript-line">And so there are these various tethered workarounds like AltStore until recently, SideStore, TrollStore, that basically take advantage of that.</div><br/>
-    <div class="transcript-line">They say, OK, you can download an application from somewhere else.</div><br/>
-    <div class="transcript-line">You can sign it with your own developer certificate, and then you can install it.</div><br/>
-    <div class="transcript-line">But there are no published APIs like there are on Android for installing or updating applications.</div><br/>
-    <div class="transcript-line">And that's pretty much the roadblock to a project like this.</div><br/>
-    <div class="transcript-line">You can't really get past it.</div><br/>
-    <div class="transcript-line">That is, until the DMA, which is the topic of this conversation.</div><br/>
-    <div class="transcript-line">So in case people haven't heard of it, I imagine most of you have, the Digital Markets Act aims to create a level playing field.</div><br/>
-    <div class="transcript-line">It wants to make the digital market fairer and more responsible, more contestable.</div><br/>
-    <div class="transcript-line">And its history is that it was in 2020, it was proposed.</div><br/>
-    <div class="transcript-line">It got signed into law in 2022.</div><br/>
-    <div class="transcript-line">2023 was when their designation of gatekeepers took place.</div><br/>
-    <div class="transcript-line">And there are five gatekeepers.</div><br/>
-    <div class="transcript-line">The ones that are relevant to this topic are Google and Apple.</div><br/>
-    <div class="transcript-line">And then last year, a little under a year ago, was the deadline for compliance for the various rules that were laid out by the Digital Markets Act.</div><br/>
-    <div class="transcript-line">So the Digital Markets Act is a big act.</div><br/>
-    <div class="transcript-line">A lot of components.</div><br/>
-    <div class="transcript-line">Has eight major sectors.</div><br/>
-    <div class="transcript-line">The one that affects us, my project and this talk, is the last one here, the online intermediation services.</div><br/>
-    <div class="transcript-line">In other words, the Google Play Store and the Apple App Store.</div><br/>
-    <div class="transcript-line">All of these are important.</div><br/>
-    <div class="transcript-line">This is the one that is relevant to us.</div><br/>
-    <div class="transcript-line">And so the online intermediation services has a bunch of requirements.</div><br/>
-    <div class="transcript-line">And generally reading through the articles, the important ones are that they need to allow third-party app stores and side loading.</div><br/>
-    <div class="transcript-line">Side loading is the term that has evolved to mean direct installation of applications straight to your device.</div><br/>
-    <div class="transcript-line">Fair and non-discriminatory access to these services.</div><br/>
-    <div class="transcript-line">No preferential treatment.</div><br/>
-    <div class="transcript-line">They basically can't favor their own services over the services of third parties.</div><br/>
-    <div class="transcript-line">You need to have a lot of interoperability requirements.</div><br/>
-    <div class="transcript-line">Terms and conditions need to be transparent.</div><br/>
-    <div class="transcript-line">And they can't have any anti-steering.</div><br/>
-    <div class="transcript-line">They can't force you to steer people towards their own gatekeeper services and away from competitive services that might be available.</div><br/>
-    <div class="transcript-line">So here's what I thought would happen when the designation was made before the compliance plan came out.</div><br/>
-    <div class="transcript-line">Is essentially that they would do what Android does.</div><br/>
-    <div class="transcript-line">Add the ability to self-sign your own applications.</div><br/>
-    <div class="transcript-line">And the technology exists for this already.</div><br/>
-    <div class="transcript-line">It is a popular misconception that you can't side load on the iPhone.</div><br/>
-    <div class="transcript-line">That's not true.</div><br/>
-    <div class="transcript-line">You just need to have a special enterprise certificate, which Apple only hands out to a select few large corporations that pay a lot of money.</div><br/>
-    <div class="transcript-line">But once you have this certificate, you can develop your application and you can sign it with the certificate and you can email it to your staff.</div><br/>
-    <div class="transcript-line">Or you can put it on a website to upload.</div><br/>
-    <div class="transcript-line">You can distribute it however you want.</div><br/>
-    <div class="transcript-line">And for all intents and purposes, it is side loading.</div><br/>
-    <div class="transcript-line">However, you need the certificate.</div><br/>
-    <div class="transcript-line">If someone gets their hands on a certificate and starts signing apps and just giving them away for free to anyone, which happens actually quite a lot, Apple closes that loophole and they put the kibosh in your certificate, they rescind it, and then all the applications are not allowed.</div><br/>
-    <div class="transcript-line">So it's possible and it's very straightforward.</div><br/>
-    <div class="transcript-line">And then the second thing they'd need to do is actually publish apps to our APIs.</div><br/>
-    <div class="transcript-line">Because the first step allows you to side load things directly.</div><br/>
-    <div class="transcript-line">The second step is what you need to actually build an App Store app, an app that distributes and maintains other applications.</div><br/>
-    <div class="transcript-line">And there are published APIs in Android.</div><br/>
-    <div class="transcript-line">There's something called Package Installer that lets you call functions like install package, uninstall package.</div><br/>
-    <div class="transcript-line">And there exists on Apple as well in this mobile installation framework.</div><br/>
-    <div class="transcript-line">It's what Cydia winds up using.</div><br/>
-    <div class="transcript-line">And they've got functions, mobile application, install, uninstall.</div><br/>
-    <div class="transcript-line">You can figure out what these functions do.</div><br/>
-    <div class="transcript-line">But these are currently private.</div><br/>
-    <div class="transcript-line">So basically, make this so anyone can get it.</div><br/>
-    <div class="transcript-line">Make this so you can make an App Store app.</div><br/>
-    <div class="transcript-line">And that's all you need to do.</div><br/>
-    <div class="transcript-line">That would be fully compliant, make everyone happy, make my life easier.</div><br/>
-    <div class="transcript-line">So here's what actually did happen.</div><br/>
-    <div class="transcript-line">So in order to go through this, you basically have to do all of these things.</div><br/>
-    <div class="transcript-line">The non-fancy stars are the ones that are pre-existing requirements to build and ship an application for the Apple App Store.</div><br/>
-    <div class="transcript-line">The fancy stars are the new things, the new steps you need to do.</div><br/>
-    <div class="transcript-line">So you always need to sign up with Apple, accept their terms and conditions, which are frequently changing.</div><br/>
-    <div class="transcript-line">And you get zero notice when they're about to change.</div><br/>
-    <div class="transcript-line">And if you don't immediately adhere to them, you can no longer issue updates to your applications.</div><br/>
-    <div class="transcript-line">And then await approval.</div><br/>
-    <div class="transcript-line">Hope that they approve your account.</div><br/>
-    <div class="transcript-line">You need to pay an annual fee, $99 US.</div><br/>
-    <div class="transcript-line">You can get an exemption from that if you're a nonprofit or educational institution.</div><br/>
-    <div class="transcript-line">New step is you need to agree to an alternative EU terms addendum, which is quite long and involved and has a lot to say about how you can monetize your apps differently.</div><br/>
-    <div class="transcript-line">Then again, you need to build and upload it to their portal, the App Store Connect portal.</div><br/>
-    <div class="transcript-line">And once you've done that, you need to request a distribution token from an alternative app marketplace.</div><br/>
-    <div class="transcript-line">So say the App Fair is an alternative app marketplace.</div><br/>
-    <div class="transcript-line">You want to distribute an app through me.</div><br/>
-    <div class="transcript-line">What you do is I give you a token, passcode basically.</div><br/>
-    <div class="transcript-line">You build your app, upload it to Apple, and then upload that token to Apple.</div><br/>
-    <div class="transcript-line">And they take those two things and say, OK, this app, if we approve it, is going to wind up being able to be distributed through the App Fair, through me.</div><br/>
-    <div class="transcript-line">You go through app review.</div><br/>
-    <div class="transcript-line">It's what they call notarization, but it's really just a subset of app review.</div><br/>
-    <div class="transcript-line">It's a combination of automated scans and human involvement.</div><br/>
-    <div class="transcript-line">That could take an hour, could take a month.</div><br/>
-    <div class="transcript-line">Once it passes, you get a token for the particular version of the application that was approved.</div><br/>
-    <div class="transcript-line">You hand that back to the alternative app marketplace.</div><br/>
-    <div class="transcript-line">They're able to download your signed and approved application, and then finally they can distribute it.</div><br/>
-    <div class="transcript-line">And then lastly, you have to pay their somewhat notorious core technology fee, which is $0.50 for every download of your application, beyond the first million in a year.</div><br/>
-    <div class="transcript-line">And that's only for monetized applications.</div><br/>
-    <div class="transcript-line">But it is definitely a hindrance to anyone who thinks I'm going to make this hit app that billions of people use.</div><br/>
-    <div class="transcript-line">You're going to be hit with a massive bill.</div><br/>
-    <div class="transcript-line">So this is the process that they consider compliance that is the facts on the ground right now.</div><br/>
-    <div class="transcript-line">The actual app review subset, the notarization guidelines, contain a lot of guidelines around the sort of content that you can have in your application.</div><br/>
-    <div class="transcript-line">It's not just around security.</div><br/>
-    <div class="transcript-line">I won't go through all of these, but there are some fairly ones that should give pause to someone who thinks that this is a sort of clear and objective standard for third parties.</div><br/>
-    <div class="transcript-line">One of them being something like this, where they say if you market your app in a misleading way, your app will be removed, it will be blocked from being installed, and you might have your developer account terminated, meaning you can never make an app again.</div><br/>
-    <div class="transcript-line">What is the definition of misleading?</div><br/>
-    <div class="transcript-line">Is there any adjudication mechanism for this?</div><br/>
-    <div class="transcript-line">Is there any appeal?</div><br/>
-    <div class="transcript-line">No, there's not.</div><br/>
-    <div class="transcript-line">It's just whatever they consider to be misleading.</div><br/>
-    <div class="transcript-line">So these are the sorts of things that we find really deeply problematic with the app review subset that you have to go through.</div><br/>
-    <div class="transcript-line">You can look at all of these guidelines, both the full app review guidelines and the notarization subset app store review guidelines.</div><br/>
-    <div class="transcript-line">There's a nice little picker where you can toggle between the two modes.</div><br/>
-    <div class="transcript-line">So that's in order to create an app.</div><br/>
-    <div class="transcript-line">What does our alternative app marketplace distributor need to do?</div><br/>
-    <div class="transcript-line">In other words, what does the app fair need to do?</div><br/>
-    <div class="transcript-line">They have to, again, register with Apple, agree to terms and conditions.</div><br/>
-    <div class="transcript-line">You need to request a marketplace entitlement, and that has various rules, one of which is that you need to have a base in the European Union, which is why we started the App Fair France.</div><br/>
-    <div class="transcript-line">You need to provide a one million euro annually renewable business letter of credit.</div><br/>
-    <div class="transcript-line">And then you need to actually build the app store app, and then submit that through app review.</div><br/>
-    <div class="transcript-line">In order to actually process the applications that you receive and distribute, you basically need to set up a server that accepts the handoff of the application that Apple passes off to you after the developer signs and uploads it.</div><br/>
-    <div class="transcript-line">And then once you do that, you host the application, and then you can have your application talk to the server and redistribute these things.</div><br/>
-    <div class="transcript-line">So what are the barriers to having a free software app marketplace?</div><br/>
-    <div class="transcript-line">Obviously I mentioned the one million euro letter of credit for marketplace entitlement.</div><br/>
-    <div class="transcript-line">That's a big ask.</div><br/>
-    <div class="transcript-line">The inability to inspect the encrypted app delivery.</div><br/>
-    <div class="transcript-line">So Apple applies DRM to every application.</div><br/>
-    <div class="transcript-line">You can't opt out of it.</div><br/>
-    <div class="transcript-line">And there's a few issues with this.</div><br/>
-    <div class="transcript-line">You can't obviously scan it for malware.</div><br/>
-    <div class="transcript-line">You can't really use reproducible builds in order to verify that the actual source code matches the app that was installed.</div><br/>
-    <div class="transcript-line">The DRM itself, that really runs afoul of free software licenses like the GPL.</div><br/>
-    <div class="transcript-line">So if you want to be able to use the GPL, it would need to have exceptions added to it, which introduce problems with compatibility with other GPL software.</div><br/>
-    <div class="transcript-line">And then Apple themselves have a requirement that you need to have scanning in place in order to be allowed to distribute these apps.</div><br/>
-    <div class="transcript-line">What is completely impossible to do, or at least illegal to do, because they themselves are encrypting the app and you can't decrypt it.</div><br/>
-    <div class="transcript-line">There's analytics that they do.</div><br/>
-    <div class="transcript-line">They track whether you install or uninstall apps.</div><br/>
-    <div class="transcript-line">And it's partly so that they can build up the numbers to know whether you qualify for the core technology fee that you owe.</div><br/>
-    <div class="transcript-line">App review.</div><br/>
-    <div class="transcript-line">As I mentioned, these can take an hour.</div><br/>
-    <div class="transcript-line">They can take a month.</div><br/>
-    <div class="transcript-line">There's really no telling.</div><br/>
-    <div class="transcript-line">There's no service level agreement.</div><br/>
-    <div class="transcript-line">And so if you need an urgent patch to one of your applications for, say, security, you're out of luck.</div><br/>
-    <div class="transcript-line">And the last one is they have a remote kill switch.</div><br/>
-    <div class="transcript-line">They can actually delete your app from your device if you want.</div><br/>
-    <div class="transcript-line">So our view is that the only way forward, really, to comply with both the spirit and the letter of the Digital Markets Act is that you really need to throw all this away.</div><br/>
-    <div class="transcript-line">You need to be able to have direct side loading.</div><br/>
-    <div class="transcript-line">Developers need to, without going through Apple at all, be able to generate their sign-in certificates.</div><br/>
-    <div class="transcript-line">They need to be able to build and distribute these things without any special entitlements.</div><br/>
-    <div class="transcript-line">Marketplaces need to be able to grant entitlements to developers for security-sensitive permissions.</div><br/>
-    <div class="transcript-line">And the app installations need to just be opened up and documented so that you can just do these things directly.</div><br/>
-    <div class="transcript-line">In other words, it needs to become just like Android is right now.</div><br/>
-    <div class="transcript-line">A quick note on security.</div><br/>
-    <div class="transcript-line">There's a lot of outs in the DMA about security, a lot of exemptions that are applied.</div><br/>
-    <div class="transcript-line">And for this reason, Apple is really-- their arguments are heavily hinging on security.</div><br/>
-    <div class="transcript-line">They have an interesting paper, "Building a Trusted Ecosystem for Millions of Apps with Threat Analysis." You can read it on their website.</div><br/>
-    <div class="transcript-line">But there's a lot of discussion in there about why side loading is considered dangerous, why you should never be allowed to do it.</div><br/>
-    <div class="transcript-line">I've always found those fairly hollow because if you go to the page for Apple Music on Android, they have an Android Apple Music APK that you can just download and install.</div><br/>
-    <div class="transcript-line">And they guide you step by step through all the steps that you need to do, including one that says, "Note that you may need to change your Android security settings to complete this installation." So, I've always found those very hollow, but that's really the angle that they're pushing in order to be able to skirt around some of the limitations or requirements that they have.</div><br/>
-    <div class="transcript-line">And I'll note a broader point about security is that security is not just about individual devices.</div><br/>
-    <div class="transcript-line">It's about the insecurity of a monoculture.</div><br/>
-    <div class="transcript-line">If you have one single centralized source, no matter who they are, no matter where they are, you have these issues where you can't understand their decision-making process.</div><br/>
-    <div class="transcript-line">It invites pressure.</div><br/>
-    <div class="transcript-line">A few notorious examples are the removal of the HK Maps Live from Hong Kong in 2019, the removal of Alexei Navalny's smart voting application in 2021 by the behest of the Russian authorities.</div><br/>
-    <div class="transcript-line">And then just last year, WhatsApp, Telegram, Signal, and Threads all just got yanked from the App Store in China.</div><br/>
-    <div class="transcript-line">These were unreviewable, these were unappealable, these were decisions that were made by central authority.</div><br/>
-    <div class="transcript-line">And Apple themselves should be concerned by this because they have invited themselves to be a center of pressure for these things.</div><br/>
-    <div class="transcript-line">If they opened up these App Store APIs and made it so I can just download these things directly, then that would eliminate a lot of the pressure on them.</div><br/>
-    <div class="transcript-line">So the next steps for the App Fair, we're working towards building up a community of volunteers and contributors.</div><br/>
-    <div class="transcript-line">We're looking to raise funds for the standard business level of credit requirement.</div><br/>
-    <div class="transcript-line">And then for the time being, we're probably going to continue to distribute applications through existing channels.</div><br/>
-    <div class="transcript-line">So apologies for going over time, but I want to thank you all for coming.</div><br/>
-    <div class="transcript-line">I'm afraid I don't have time for questions.</div><br/>
-    <div class="transcript-line">I'll be around though in case you have any questions.</div><br/>
-    <div class="transcript-line">And here is my contact information.</div><br/>
-    <div class="transcript-line">[applause]</div><br/>
-  </div>
-</div>
+Other activities throughout the year include participation on various panels and working groups that are assessing the DMA compliance efforts of the gatekeepers. In March I attended the EC Digital Markets Act workshop to assess the current state of compliance, which I [wrote about](digital-markets-act-workshop). Throughout the autumn, I participated in a "Workshop on Mobile Ecosystems – Technical & Security Issues" for alternative app installation channels, which is to be published on the European Commission’s website.
+
+None of this wrangling is fun or pleasant, but is is all a prerequisite for the App Fair Project's mission: to provide a free universal app store to distribute software for the common good. We expect that 2025 will be the year that we will be able to start distributing free apps in a truly independent manner.
+
+
+
+<!-- 
+The actual changes they unveiled in March 2023 were a far cry from this: they simply expanded their App Store Connect program to permit submission of apps that could additionally target "alternative app marketplaces". As it is with the current regime, prospective developers must apply to the paid Apple Developer Program, and, if approved, can submit their apps through the App Store portal with the added possibility of specifying an 
+ -->
+
+<!-- 
+The mission of the App Fair is to create a universal store of free and open-source apps that serve the public interest. By "universal", we mean that the applications should be usable regardless of location, language, or device. In order to enable this, we are not only working on the technologies to facilitate the creation and distribution of these applications, but equally important is our work towards establishing the ability to distribute these apps independently of any gatekeeping entities, so that free software developers can have faith that their efforts will be durable.
+
+The main barrier to this vision has, thus far, been the question of distribution. The mobile smartphone market is split between Android and iOS, the former being dominant worldwide (with 75% of the total smartphone market), whereas the latter dominates the high-end of the spectrum. Supporting both operating systems for our apps is critical to our mission of universality.
+
+The independent distribution of apps on Android has long been supported by the operating system. The Google Play Store is just one of many app storefronts available for devices running that OS: there are dozens of other very popular stores, some of which are run by device manufacturers (such as Samsung and Huwai) and others that are focused on certain market segments (such as Epic Games). And there are also stores that are focused solely on the distribution of free and open-source software, such as F-Droid. Creating an app store for Android is a simple matter of writing the software to download, install, and update apps from a certain repository using the published application programming interfaces (APIs).
+
+The iPhone, on the other hand, had historically had only one official avenue for downloading and installing apps: the Apple App Store. They did not publish APIs for how to install and manage apps on the device, and even though there have been efforts to use unofficial methods going back to the Cydia store in 2008 (which pre-dates the App Store), these efforts have been periodically blocked and disabled to the point where attempting to circumvent the monopoly Apple holds on distribution has been a never-ending game of cat and mouse.
+
+This all promised to change – in Europe at least – with the passage of the *Digital Markets Act* and the official designation of Apple as a "gatekeeper". It was mandated that Apple must open up their devices to competition on a number of fronts, including supporting third party app stores. 
+ -->
+
