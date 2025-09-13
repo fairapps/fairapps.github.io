@@ -1,7 +1,7 @@
 ---
 title:  "The GPL and Commercial App Stores: Time for a Reconsideration"
 date:   2025-03-19 00:00:00 -0400
-categories: news blog update talks gpl ;icense
+categories: news blog update talks gpl license
 layout: post
 author: "Marc Prud'hommeaux"
 ---
