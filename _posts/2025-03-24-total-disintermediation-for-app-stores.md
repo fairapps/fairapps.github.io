@@ -4,6 +4,7 @@ date:   2025-03-24 00:00:00 -0400
 categories: news blog update dma app store
 layout: post
 author: "Marc Prud'hommeaux"
+published: false
 ---
 
 The European Union's Digital Markets Act (DMA) aims to curb the power of digital gatekeepers and foster a more competitive digital marketplace. However, when it comes to Apple's App Store, the current implementation falls significantly short of the DMA's ambitions. The App Fair Project has concluded that nothing less than total disintermediation—removing Apple entirely from the app distribution process—will effectively enforce the DMA's goals.
