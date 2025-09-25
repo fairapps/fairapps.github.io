@@ -123,7 +123,7 @@ Please also consider making a tax-deductible <a href="/donate">donation</a> towa
 
 <p style="vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" styleX="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
-  <img alt="Download on App Store Button" src="/img/download-app-store.png" style="width: 170px; display: inline-block; vertical-align: middle;" />
+  <img alt="Download on App Store Button" src="/assets/badges/apple-app-store.svg" style="width: 170px; display: inline-block; vertical-align: middle;" />
 </a>
 </p>
  
