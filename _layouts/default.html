@@ -19,7 +19,7 @@
             <div class="email-input-container">
               <input type="email" name="email" placeholder="Your email" required="" />
               <div>
-                <input class="button" type="submit" value="Sign Up" name="action" />
+                <input class="button" type="submit" value="Sign Up" name="action" id="mailing-list-signup-button" />
                 <div class="spinner"></div>
               </div>
             </div>
@@ -29,9 +29,11 @@
 
     </main>
     <script>
-    // if we have already signed up for the mailing list, hide the form
     if (localStorage.getItem('mailingListSignedUp') === 'true') {
-      document.querySelector('.mailing-list-signup').style.display = 'none';
+      // if we have already signed up for the mailing list, hide the form
+      //document.querySelector('.mailing-list-signup').style.display = 'none';
+      // fade the signup button if we have already signed up
+      document.querySelector('.mailing-list-signup-button').style.opacity = '60%';
     }
     </script>
     {%- include footer.html -%}
