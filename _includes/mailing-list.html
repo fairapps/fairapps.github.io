@@ -1,3 +1,4 @@
+{% unless page.url contains '/emailsignup/' %}
 <div style="width: 50%;" class="site-width centered" id="mailing-list-signup-container">
   <h2>Join our Mailing List</h2>
   <p><small>Sign up to be notified about news, releases, and updates for the App Fair Project.</small></p>
@@ -24,3 +25,4 @@ if (localStorage.getItem('mailingListSignedUp') === 'true') {
   document.querySelector('#mailing-list-signup-button').style.opacity = '60%';
 }
 </script>
+{% endunless %}
