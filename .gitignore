@@ -8,3 +8,5 @@ _site/
 vendor/
 *.swp
 *.swo
+*.bkp
+
