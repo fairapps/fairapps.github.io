@@ -97,7 +97,7 @@ layout: default
 <span>Our first project is launching the App Fair app marketplace for the iPhone and iPad in the European Union in 2025 to distribute these community-led applications. The App Fair marketplace app will be used to discover, review, install, and update the apps in our catalog.</span>
 </p>
 
-
+<!--
 <h2 style="text-align: center;">How You Can Help</h2>
 
 <p>
@@ -108,12 +108,11 @@ In order to launch the App Fair marketplace for iOS, Apple is imposing the requi
 
 <p>
 <span>
-<!-- Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word. -->
+< !-- Every install helps move us towards being able to launch the first free app marketplace for iOS, so please help spread the word. -- >
 Please also consider making a tax-deductible <a href="/donate">donation</a> towards the creation and maintenance of the project.
 
 </span>
 </p>
-
 
 <p style="vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
 <a href="https://apps.apple.com/us/app/net-skip/id1640618584?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: auto; margin-right: auto; text-align: center;">
@@ -127,6 +126,7 @@ Please also consider making a tax-deductible <a href="/donate">donation</a> towa
 </a>
 </p>
  
+-->
  
 <!-- 
 <span lang="en">Contact us at <a href="mailto:info@appfair.org">info@appfair.org</a> for information on programs, volunteer opportunities, and upcoming events.</span>
