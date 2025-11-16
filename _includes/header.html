@@ -58,10 +58,18 @@
       <a class="mobile-nav-toggle" href="javascript: toggleNavigation()"><img src="/assets/icons/close.svg" alt="Close" class="icon" /></a>
       <span>
           {%- for path in page_paths -%}
-            {%- assign navpage = site.pages | where: "path", path | first -%}
-            {%- if navpage.title -%}
+          {%- comment -%}
+          The paths in _config.yml can either include a title and href,
+          or they can reference the underlying markdown directly and use its title.
+          {%- endcomment -%}
+            {%- if path.title -%}
+                <a class="page-link" href="{{ path.href }}">{{ path.title | escape }}</a>
+            {%- else -%}
+                {%- assign navpage = site.pages | where: "path", path | first -%}
+                {%- if navpage.title -%}
 
-            <a class="page-link {% if navpage.path == page.path %}selected{% endif %}" href="{{ navpage.url | relative_url }}">{{ navpage.title | escape }}</a>
+                <a class="page-link {% if navpage.path == page.path %}selected{% endif %}" href="{{ navpage.url | relative_url }}">{{ navpage.title | escape }}</a>
+                {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
 
