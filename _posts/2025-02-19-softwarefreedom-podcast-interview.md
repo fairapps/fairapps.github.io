@@ -6,7 +6,7 @@ layout: post
 author: "Marc Prud'hommeaux"
 ---
 
-I was recently interviewed about the App Fair Project for the FSFE's [Software Freedom Podcast](https://fsfe.org/news/podcast/episode-30.en.html). I had a great discussion with Bonnie Mehring about many aspects of the App Fair's philosophy and mechanics.
+I was recently interviewed about the App Fair Project for the FSFE's [Software Freedom Podcast](https://fsfe.org/news/podcast/2025/episode-30.en.html). I had a great discussion with Bonnie Mehring about many aspects of the App Fair's philosophy and mechanics.
 
 <audio controls="" style="width:100%;">
     <source src="https://download.fsfe.org/audio/podcast/SFP030.opus?ref=player" type="audio/ogg;codecs=opus">

@@ -7,6 +7,18 @@ author: "Marc Prud'hommeaux"
 published: false
 ---
 
+The only path to digital sovereignty is through total disintermediation.
+
+As the digital gatekeepers have faced increasing scrutiny over their anti-competitive practices, the hope had been that the attention and potential for regulatory enforcement would help open up these ecosystems to interoperability, competition, and unfettered technological innovation. But in the realm of the mobile app store duopoly, the exact opposite has happened: rather than Apple becoming more open with iOS, Google is increasingly locking down Android by closing off the development of the Android Open Source Project and instituting a plan to force all developers worldwide to register with Google in order to be able to distribute their Android applications, regardless of their storefront or distribution channel of choice. The fact that Apple has gotten away with their flagrant violations of the EU's Digital Markets Act has clearly emboldened Google to take advantage of the timid and limp enforcement regime and rush to lock down the Android ecosystem. The impending requirement that all mobile apps will soon need to funnel through the approval of two for-profit US companies should be a cause for alarm, not just for competition concerns but also for digital sovereignty.
+
+
+
+
+
+
+OLD DRAFT:
+
+
 The European Union's Digital Markets Act (DMA) aims to curb the power of digital gatekeepers and foster a more competitive digital marketplace. However, when it comes to Apple's App Store, the current implementation falls significantly short of the DMA's ambitions. The App Fair Project has concluded that nothing less than total disintermediation—removing Apple entirely from the app distribution process—will effectively enforce the DMA's goals.
 
 ## The Digital Markets Act: A Brief History
