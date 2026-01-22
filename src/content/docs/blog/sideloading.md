@@ -4,7 +4,7 @@ date:   2025-10-28
 tags: [news, blog, update, dma, app, store, google, developer]
 layout: post
 author: "Marc Prud'hommeaux"
-published: true
+draft: false
 ---
 
 _This is a cross-posting of an article I wrote for the F-Droid blog at: [https://f-droid.org/en/2025/10/28/sideloading.html](https://f-droid.org/en/2025/10/28/sideloading.html). As well as managing the App Fair Project, I also serve on the F-Droid board of directors._

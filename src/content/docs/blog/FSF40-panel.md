@@ -4,7 +4,7 @@ date:   2025-10-06
 tags: [news, blog, update, fsf, free, software, app, store, google, developer]
 layout: post
 author: "Marc Prud'hommeaux"
-published: true
+draft: false
 ---
 
 I was honored to be invited as a [panelist](https://www.fsf.org/news/fsf40-foundation-panel) at the FSF 40-year celebration event in Boston this weekend. Along with Paige Collings, senior speech and privacy activist from the EFF, Devin Ulibarri, the executive director of Sugar Labs, and Greg Farough, the FSF's campaigns manager, we spent an hour discussing issues around software freedom and privacy, and answered a variety of interesting questions from the audience.

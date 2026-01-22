@@ -4,7 +4,7 @@ date:   2025-03-24
 tags: [news, blog, update, dma, app, store]
 layout: post
 author: "Marc Prud'hommeaux"
-published: false
+draft: true
 ---
 
 The only path to digital sovereignty is through total disintermediation.
