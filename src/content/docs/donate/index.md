@@ -2,6 +2,9 @@
 name: Donate
 title: Support Us
 #layout: default
+editUrl: false
+tableOfContents: false
+sideBar: false
 ---
 
 # Support the App Fair Project
