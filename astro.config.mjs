@@ -94,7 +94,7 @@ export default defineConfig({
       ],
 			social: [
         { icon: 'discourse', label: 'Forums', href: 'https://github.com/orgs/appfair/discussions' },
-        { icon: 'slack', label: 'Slack', href: '/slack/' },
+        //{ icon: 'slack', label: 'Slack', href: '/slack/' },
         { icon: 'mastodon', label: 'Mastodon', href: 'https://fosstodon.org/@appfair' },
         { icon: 'github', label: 'GitHub', href: 'https://github.com/orgs/appfair' },
       ],
