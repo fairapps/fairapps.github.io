@@ -28,7 +28,7 @@ export default defineConfig({
 			title: 'The App Fair Project',
       favicon: '/favicon.png',
       logo: {
-        src: './public/icons/appfair-icon.svg',
+        src: './public/assets/icons/appfair-icon.svg',
         replacesTitle: true,
       },
       defaultLocale: 'root',

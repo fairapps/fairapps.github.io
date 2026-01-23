@@ -6,7 +6,7 @@ title: Creator Guide
 
 # App Fair Creator Guide
 
-<img style="width: 100%;" alt="App Fair Project Diagram" src="/images/appfair-project.svg" />    
+<img style="width: 100%;" alt="App Fair Project Diagram" src="/assets/images/appfair-project.svg" />
 
 ## Introduction {#introduction}
 

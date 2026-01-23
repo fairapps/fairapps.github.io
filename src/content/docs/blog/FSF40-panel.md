@@ -30,4 +30,4 @@ And last month, the other shoe dropped: Google announced that starting next year
 
 And so to answer the original question, "how has the freedom of users of mobile phones changed since in 2010", I'll summarize by saying: it went up, and then it went down. And that's where we are today.
 
-<img alt="FSF40 panelists" src="/images/fsf40-panel.png" />
+<img alt="FSF40 panelists" src="/assets/images/fsf40-panel.png" />
