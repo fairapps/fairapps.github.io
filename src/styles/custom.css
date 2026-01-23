@@ -40,6 +40,9 @@
 .hero div {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  max-width: 100%;
+  justify-content: center;
 }
 
 .hero h1 {
@@ -47,6 +50,8 @@
   max-width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero .tagline {
