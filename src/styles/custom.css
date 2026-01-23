@@ -37,6 +37,11 @@
   grid-template-columns: 1fr;
 }
 
+.hero div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero h1 {
   text-align: center;
   max-width: 100%;
@@ -56,8 +61,6 @@
   text-align: center;
   max-width: 100%;
 }
-
-
 
 div.showcase-screenshot-container {
   width: 100%;
