@@ -38,7 +38,6 @@ which will run the link checker and other validations:
 npm run build
 ```
 
-
 ### Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -99,9 +98,6 @@ Images can be added to `src/assets/` and embedded in Markdown with a relative li
 
 Static assets, like favicons, can be placed in the `public/` directory.
 
-
 ## License
 
 The App Fair Project © 2026 by <a href="https://appfair.org">the App Fair</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-
-

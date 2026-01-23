@@ -13,7 +13,6 @@ The App Fair is built for you. We pursue our mission with your support - to crea
 
 Your support helps pay for the development and maintenance of the App Fair Project, including the servers and bandwidth required to make the app catalog available to billions of people all over the world.
 
-
 <a href="https://www.patreon.com/appfair" class="donate-button" style="margin-left: auto; margin-right: auto;">
     Support the App Fair Project on Patreon
 </a>
@@ -51,4 +50,3 @@ You can also make a one-time direct donation using a variety of payment options:
 <br />
  
 If you provide an email with your donation, you will receive an email confirmation for your tax records. The App Fair Project is an independent nonprofit charity and tax-exempt under section 501c3 of the US Internal Revenue Code. Our Federal Tax ID Number is 88-1461874.
-

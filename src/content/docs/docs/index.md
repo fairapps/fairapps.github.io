@@ -19,15 +19,15 @@ The document is currently a **draft** of the creator guide. Many sections are st
 
 The App Fair is a nexus for mobile app developers to bring their creations into the hands billions of mobile device users around the world: all devices, all languages, all abilities. Apps developed for the App Fair are trustworthy because they are 100% free and open-source. This guarantees that there is no native advertising, hidden surveillance, surreptitious tracking, or privacy-violating analytics technologies embedded within the applications. The App Fair build and release process acts as a "seal of approval" for apps to indicate that they are honest and trustworthy.
 
-#### Why develop an app for the App Fair?   #why-app-fair}
+#### Why develop an app for the App Fair? {#why-app-fair}
 
 Creating an app for the App Fair is an opportunity to get your creation in the hands of billions of people around the world, regardless of their device, language, or ability level.
 
-#### Who can create an app for the App Fair?   #who-app-fair}
+#### Who can create an app for the App Fair? {#who-app-fair}
 
 Anyone with the ability and desire to build an app can be an App Fair Creator. You do not need any paid developer account with Apple or Google, only a free GitHub account. If you have a macOS development machine and the ability (or desire) to build an app in SwiftUI, you can create an app and – through the App Fair process – distribute your creation to the world.
 
-#### What sorts of apps can I build for the App Fair?   #what-app-fair}
+#### What sorts of apps can I build for the App Fair? {#what-app-fair}
 
 The App Fair is looking for _generally useful_ applications. This means that your app should be interesting and useful to a wide swath of humanity, irrespective of language or location. They should also be timeless: apps should not have any specific cutoff for their utility.
 

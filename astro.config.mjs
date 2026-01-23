@@ -32,7 +32,6 @@ export default defineConfig({
         replacesTitle: true,
       },
       defaultLocale: 'root',
-      /*
       locales: {
         'root': {
           label: 'English',
@@ -67,7 +66,6 @@ export default defineConfig({
           lang: 'zh-CN',
         },
       },
-      */
       components: {
         // Override the default Header component
         Header: './src/components/CustomHeader.astro',

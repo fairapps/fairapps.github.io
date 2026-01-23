@@ -1,0 +1,61 @@
+---
+title: App Fairプロジェクト
+description: iPhoneとAndroid向けの無料でオープンソースのアプリストア
+template: splash
+editUrl: false
+tableOfContents: false
+sideBar: false
+head:
+  - tag: title
+    content: 'App Fairプロジェクト: iPhoneとAndroid向けの無料でオープンソースのアプリストア'
+hero:
+  tagline: iPhoneとAndroid向けの無料でオープンソースのアプリストア
+  #image:
+  #  file: ../../assets/houston.webp
+  banner:
+    content: |
+      App Fairがローンチ！
+      <a href="/blog/app-fair-launch">お知らせを読む</a>
+  actions:
+    - text: 詳細はこちら
+      link: /docs/
+      icon: right-arrow
+      variant: primary
+    - text: はじめる
+      link: /docs/
+      icon: right-arrow
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+App Fairプロジェクトは、公共の利益のためにモバイルソフトウェアアプリケーションを作成することに専念する非営利の慈善団体です。このプロジェクトは、無料アプリを構築、配布、維持するための世界的な拠点として2022年に設立されました。
+
+App Fairアプリは無料で、広告技術や非同意の追跡技術は組み込まれていません。いかなる方法でもユーザーの注意を収益化しようとはしません。無料でオープンソースのソフトウェアから作成され、寄付と助成金のみによって資金提供されています。
+
+私たちの最初のプロジェクトは、これらのコミュニティ主導のアプリケーションを配布するために、2026年に欧州連合でiPhoneおよびiPad向けのApp Fairアプリマーケットプレイスを立ち上げることです。App Fairマーケットプレイスアプリは、カタログ内のアプリを発見、レビュー、インストール、更新するために使用されます。
+<CardGrid>
+
+  <Card title="無料＆オープンソース" icon="sourcehut">
+    すべてのApp Fairアプリは完全に無料でオープンソースです。誰でもコードを検査し、改善に貢献し、より広いコミュニティの利益のために再利用することができます。
+  </Card>
+
+  <Card title="広告やアドテクなし" icon="close">
+    App Fairアプリは広告を一切表示しません。アテンションハーベスティング、エンゲージメント操作、ユーザーではなくクリックを最適化するインセンティブはありません。
+  </Card>
+
+  <Card title="どこでも利用可能" icon="seti:hex">
+    App Fairアプリは、Apple App StoreやGoogle Play Storeなどの商用アプリストアだけでなく、AltStoreやF-Droidなどの代替マーケットプレイスを通じても配布されます。
+  </Card>
+  <Card title="アプリ内課金なし" icon="star">
+    App Fairアプリはエンドユーザーをいかなる形でも収益化しません。サブスクリプション、アプリ内購入、ペイウォールはありません — 完全な体験が誰にでも利用可能です。
+  </Card>
+
+  <Card title="デジタル公共財" icon="heart">
+    App Fairプロジェクトは、社会に貢献するためにコミュニティによって構築され、寄付や助成金によって資金提供されるデジタル公共財です。
+  </Card>
+
+  <Card title="プライバシーを尊重する設計" icon="approve-check-circle">
+    App Fairアプリにはトラッカーやスパイウェアは含まれておらず、不要な権限も要求しません。共有が不可欠で明示的でない限り、あなたのデータはデバイス上に留まります。
+  </Card>  
+</CardGrid>
